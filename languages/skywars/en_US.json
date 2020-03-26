@@ -2,8 +2,75 @@
 	"name": "English",
 	"code": "en_US",
 	"server": "skywars",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"messages": {
-		"welcome": "Welcome to SERVER NAME."
+		"kit": {
+			"basic": "Basic"
+		},
+		"hab": {
+			"luckyblock": "Lucky Block"
+		},
+		"ui": {
+			"kit": {
+				"button": "{0} {n} {1}",
+				"title": "Kits",
+				"content": {
+					"error": "The kit {0} has already selected",
+					"confirm": "Confirm the kit {0} selection: {n}",
+					"items": "- {0}x {1} {n}"
+				},
+				"selected": "Selected",
+				"unselected": "Not selected"
+			},
+			"hab": {
+				"button": "{0} {n} {1}",
+				"title": "Habilities",
+				"content": {
+					"error": "The hability {0} has already selected",
+					"confirm": "Confirm the hability {0} selection: {n}",
+					"items": "- {0}x {1} {n}"
+				},
+				"selected": "Selected",
+				"unselected": "Not selected"
+			},
+			"arena": {
+				"button": "{0} ({1}/{2}) {n} {3}",
+				"title": "Select arenas"
+			},
+			"locate": {
+				"title": "Locate a player",
+				"button": "{0}"
+			}
+		},
+		"arena": {
+			"sucessjoin": "You are joined in arena {0}",
+			"maxplayers": "The arena is full, time has been reduced",
+			"gamestatus": "{1} {n} {0}",
+			"drawngame": "Drawn game",
+			"playerwin": "You win.",
+			"playerplaying": "You are already in an arena",
+			"full": "Arena full",
+			"end": "End game, you not win :( {n} {0}",
+			"endwin": "Congratulations!!! {n} {0}",
+			"ranktitle": "Rank kills:",
+			"rankno": "{n}- {0}) ...",
+			"rank1": "{n}- {0}) {1}: {2}",
+			"rank2": "{n}- {0}) {1}: {2}",
+			"rank3": "{n}- {0}) {1}: {2}"
+		},
+		"confirm": {
+			"kit": "Selected kit: {0}",
+			"hab": "Selected hability: {0}"
+		},
+		"recuse": {
+			"kit": "Recused confirm of kit {0}",
+			"hab": "Selected hability: {0}"
+		},
+		"limittime": {
+			"kit": "The limit time for select kit has been excedded",
+			"hab": "The limit time for select hability has been excedded"
+		},
+		"checkkitfail": "Check kit fail.",
+		"checkhabfail": "Check hability fail."
 	}
 }
