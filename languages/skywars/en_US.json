@@ -1,0 +1,9 @@
+{
+	"name": "English",
+	"code": "en_US",
+	"server": "skywars",
+	"version": "1.0.0",
+	"messages": {
+		"welcome": "Welcome to SERVER NAME."
+	}
+}
