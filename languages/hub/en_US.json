@@ -1,0 +1,9 @@
+{
+	"name": "English",
+	"code": "en_US",
+	"server": "hub",
+	"version": "1.0.2",
+	"messages": {
+		"welcome": "Welcome to SERVER NAME."
+	}
+}
