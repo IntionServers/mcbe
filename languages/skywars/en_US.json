@@ -2,13 +2,25 @@
 	"name": "English",
 	"code": "en_US",
 	"server": "skywars",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"messages": {
+		"item": {
+			"name": {
+				"arenas": "Select an arena",
+				"kit": "Select a kit",
+				"lobby": "Go to lobby",
+				"locate": "Locate a player",
+				"hab": "Select a hability"
+			}
+		},
 		"kit": {
 			"basic": "Basic"
 		},
 		"hab": {
-			"luckyblock": "Lucky Block"
+			"luckyblock": {
+				"name": "Lucky Block",
+				"desc": "Break a block to get a golden apple maybe..."
+			}
 		},
 		"ui": {
 			"kit": {
@@ -27,7 +39,7 @@
 				"title": "Habilities",
 				"content": {
 					"error": "The hability {0} has already selected",
-					"confirm": "Confirm the hability {0} selection: {n}",
+					"confirm": "Confirm the hability {0} selection: {n} {1}",
 					"items": "- {0}x {1} {n}"
 				},
 				"selected": "Selected",
@@ -40,10 +52,18 @@
 			"locate": {
 				"title": "Locate a player",
 				"button": "{0}"
+			},
+			"confirm": {
+				"button": "Confirm",
+				"title": "Confirm the action"
+			},
+			"recuse": {
+				"button": "Recuse"
 			}
 		},
 		"arena": {
 			"sucessjoin": "You are joined in arena {0}",
+			"needplayers": "Need more {0} player(s)",
 			"maxplayers": "The arena is full, time has been reduced",
 			"gamestatus": "{1} {n} {0}",
 			"drawngame": "Drawn game",
@@ -71,6 +91,12 @@
 			"hab": "The limit time for select hability has been excedded"
 		},
 		"checkkitfail": "Check kit fail.",
-		"checkhabfail": "Check hability fail."
+		"checkhabfail": "Check hability fail.",
+		"stage": {
+			"0": "Waiting...",
+			"1": "Starting...",
+			"2": "In game!",
+			"3": "Preparing..."
+		}
 	}
 }
