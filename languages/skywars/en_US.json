@@ -2,11 +2,11 @@
 	"name": "English",
 	"code": "en_US",
 	"server": "skywars",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"messages": {
 		"item": {
 			"name": {
-				"arenas": "Select an arena",
+				"perfil": "Your profile",
 				"kit": "Select a kit",
 				"lobby": "Go to lobby",
 				"locate": "Locate a player",
@@ -53,6 +53,11 @@
 				"title": "Locate a player",
 				"button": "{0}"
 			},
+			"profile": {
+				"button": "Close",
+				"title": "Profile",
+				"content": "Under development."
+			},	
 			"confirm": {
 				"button": "Confirm",
 				"title": "Confirm the action"
@@ -62,6 +67,8 @@
 			}
 		},
 		"arena": {
+			"playerjoin": "{0} join in arena. [{1}/{2}].",
+			"playerquit": "{0} quit. [{1}/{2}]",
 			"sucessjoin": "You are joined in arena {0}",
 			"needplayers": "Need more {0} player(s)",
 			"maxplayers": "The arena is full, time has been reduced",
@@ -76,7 +83,22 @@
 			"rankno": "{n}- {0}) ...",
 			"rank1": "{n}- {0}) {1}: {2}",
 			"rank2": "{n}- {0}) {1}: {2}",
-			"rank3": "{n}- {0}) {1}: {2}"
+			"rank3": "{n}- {0}) {1}: {2}",
+			"refil": "The chest has been refilled!",
+			"death": {
+				"contact": "{0} died.",
+				"suffocation": "{0} died suffocated.",
+				"fall": "{0} died of falling.",
+				"burn": "{0} burned.",
+				"drowning": "{0} drowned.",
+				"explosion": "{0} exploded.",
+				"void": "{0} fell on void.",
+			    "suicide": "{0} committed suicide.",
+				"magic": "{0} died for magic.",
+				"starvation": "{0} starved to death.",
+				"undefined": "{0} died.",
+				"byplayer": "{0} killed by {1}."
+			}			
 		},
 		"confirm": {
 			"kit": "Selected kit: {0}",
@@ -97,6 +119,11 @@
 			"1": "Starting...",
 			"2": "In game!",
 			"3": "Preparing..."
+		},
+		"npc": {
+			"nametag": "Join in a arena {n} {0}",
+			"noplayer": "No player playing now",
+			"hasplayer": "{0} player(s) playing now"
 		}
 	}
 }
