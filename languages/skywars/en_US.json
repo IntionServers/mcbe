@@ -93,7 +93,7 @@
 				"drowning": "{0} drowned.",
 				"explosion": "{0} exploded.",
 				"void": "{0} fell on void.",
-			    "suicide": "{0} committed suicide.",
+				"suicide": "{0} committed suicide.",
 				"magic": "{0} died for magic.",
 				"starvation": "{0} starved to death.",
 				"undefined": "{0} died.",
