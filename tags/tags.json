@@ -1,16 +1,16 @@
 {
   "tags": {
-  "Player": {
+  "player": {
     "format": "§7(Player)",
     "permissions": [],
     "players": [],
  },
-    "VIP": {
-       "format": "§a[VIP]",
-    "permissions": [],
-    "players": [],
+"vip": {
+   "format": "§a[VIP]",
+   "permissions": [],
+   "players": [],
     },
- "Master": {
+ "master": {
   "format": "§6[Master]",
   "permissions": [],
   "players": [],
