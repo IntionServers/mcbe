@@ -5,10 +5,15 @@
     "permissions": [],
     "players": [],
  },
+    "VIP": {
+       "format": "§a[VIP]",
+    "permissions": [],
+    "players": [],
+    },
  "Master": {
   "format": "§6[Master]",
   "permissions": [],
   "players": [],
-  }
+  },
  }
 }
