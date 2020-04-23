@@ -1,0 +1,12 @@
+{
+  "Player": {
+    "format": "§7(Player)",
+    "permissions": [],
+    "players": [],
+ },
+ "Master": {
+  "format": "§6[Master]",
+  "permissions": [],
+  "players": [],
+ }
+}
