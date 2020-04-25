@@ -1,1 +1,14 @@
-
+{
+  "name": "English",
+  "code": "en_US",
+  "server": "duels",
+  "version": "1.0.2",
+  "messages": {
+    "item": {
+      "unranked": "Unranked",
+      "ranked": "Ranked",
+      "profile": "Profile",
+      "leaderboard": "Leaderboard"
+  }
+}
+}
