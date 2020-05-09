@@ -5,10 +5,14 @@
   "version": "1.0.2",
   "messages": {
     "item": {
-      "unranked": "Unranked",
-      "ranked": "Ranked",
       "profile": "Profile",
       "leaderboard": "Leaderboard"
-  }
+  },
+    "events": {
+      "win": "Win",
+      "death": "Death",
+      "join.queue": "Joined",
+      "quit.queue": "Quit",
+    },
 }
 }
