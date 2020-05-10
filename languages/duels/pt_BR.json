@@ -21,6 +21,18 @@
       "losspoints": "You loss {0} ranked points.",
       "quit": "{0} quit."
     },
+   
+   "forms": {
+      "profile": "{0}'s profile",
+      "games": "Modes"
+    },
+   
+   "profile": {
+      "general": "General",
+      "leaderboard": "Leaderboard",
+      "settings": "Settings"
+    },
+
 
     "ranks": {
       "0": "IronIII",
