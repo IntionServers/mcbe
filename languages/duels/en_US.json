@@ -26,6 +26,13 @@
       "profile": "{0}'s profile",
       "games": "Modes"
     },
+   
+   "profile": {
+      "general": "General",
+      "leaderboard": "Leaderboard",
+      "settings": "Settings"
+    },
+
 
     "ranks": {
       "0": "IronIII",
