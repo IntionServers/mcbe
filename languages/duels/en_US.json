@@ -1,5 +1,5 @@
 {
- "name": "English",
+  "name": "English",
   "code": "en_US",
   "server": "duels",
   "version": "1.0.2",
@@ -19,20 +19,38 @@
       "inarena": "In arena.",
       "winpoints": "You win {0} ranked points.",
       "losspoints": "You loss {0} ranked points.",
-      "quit": "{0} quit."
+      "quit": "{0} quit.",
+      "nullarena": "You aren't in arena.",
+      "nullqueue": "You aren't in queue.",
+      "notexistsmode": "This mode not exists.",
+      "duel": "Duel against {0}",
+      "restarting": "This match is restarting now, teleporting all players to lobby."
     },
-   
-   "forms": {
+
+    "forms": {
       "profile": "{0}'s profile",
-      "games": "Modes"
+      "games": "Modes",
+      "leaderboard": "Leaderboard",
+      "unranked": "Unranked",
+      "ranked": "Ranked"
     },
-   
-   "profile": {
+
+    "bossbar": {
+      "title": "Kills: {0} | Deaths: {1} | K/D: {2}",
+      "subtitle":  "Rank: {3} | Points: {4}"
+    },
+
+    "profile": {
       "general": "General",
       "leaderboard": "Leaderboard",
       "settings": "Settings"
     },
 
+    "games": {
+      "standard": "Standard",
+      "op": "OP",
+      "sumo": "Sumô"
+    },
 
     "ranks": {
       "0": "IronIII",
