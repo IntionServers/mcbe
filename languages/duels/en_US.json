@@ -37,7 +37,7 @@
 
     "bossbar": {
       "title": "Kills: {0} | Deaths: {1} | K/D: {2}",
-      "subtitle":  "Rank: {3} | Points: {4}"
+      "subtitle":  "Rank: {0} | Points: {1}"
     },
 
     "profile": {
