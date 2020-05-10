@@ -1,38 +1,56 @@
 {
- "name": "Portuguese",
+  "name": "Portuguese",
   "code": "pt_BR",
   "server": "duels",
   "version": "1.0.2",
   "messages": {
 
     "hotbar": {
-      "profile": "Profile",
-      "games": "Games"
+      "profile": "Perfil",
+      "games": "Modos"
     },
 
     "events": {
-      "win": "You win!",
-      "loss": "You loss!",
-      "joinqueue": "You're entered to queue for {0} matches, Type: {1}, Count: {2}",
-      "quitqueue": "You're quited from queue.",
-      "inqueue": "You're in queue.",
-      "inarena": "In arena.",
-      "winpoints": "You win {0} ranked points.",
-      "losspoints": "You loss {0} ranked points.",
-      "quit": "{0} quit."
+      "win": "Você ganhou!",
+      "loss": "Você perdeu!",
+      "joinqueue": "Você entrou na fila para partidas do modo {0} {n} Tipo: {1} {n} Jogadores nesta fila: {2}",
+      "quitqueue": "Você saiu da fila.",
+      "inqueue": "Você já está na fila.",
+      "inarena": "Você já está numa arena.",
+      "winpoints": "Você ganhou {0} pontos de ranking.",
+      "losspoints": "Você perdeu {0} pontos de ranking.",
+      "quit": "{0} saiu da partida.",
+      "nullarena": "Você não está em uma arena.",
+      "nullqueue": "Você não está em uma fila.",
+      "notexistsmode": "Este modo não existe.",
+      "duel": "Duelo contra o jogador: {0}",
+      "restarting": "Esta arena está reiniciando, teleportando todos os jogadores dela para o lobby."
     },
-   
-   "forms": {
-      "profile": "{0}'s profile",
-      "games": "Modes"
+
+    "forms": {
+      "profile": "Perfil do jogador(a) {0}",
+      "games": "Modos",
+      "leaderboard": "TOP",
+      "unranked": "Sem Ranking",
+      "ranked": "Com Ranking"
     },
-   
-   "profile": {
+
+    "bossbar": {
+      "title": "Kills: {0} | Mortes: {1} | K/D: {2}",
+      "subtitle":  "Rank: {3} | Pontos: {4}"
+    },
+
+    "profile": {
       "general": "General",
       "leaderboard": "Leaderboard",
       "settings": "Settings"
     },
 
+    "games": {
+      "standard": "Standard",
+      "op": "OP",
+      "sumo": "Sumô"
+    },
 
     "ranks": {
       "0": "IronIII",
