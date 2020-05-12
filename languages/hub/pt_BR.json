@@ -1,1 +1,194 @@
-{"name":"Portuguese","code":"pt_BR","server":"hub","version":"1.0.0","messages":{"welcome":"Bem vindo ao NOME DO SERVER"}}
+{
+    "name": "Portuguese",
+    "code": "pt_BR",
+    "server": "hub",
+    "version": "1.0.2",
+    "messages": {
+    	"titles": {
+    		"unknown": {
+    			"name": "Unknown",
+    			"description": [
+    				"Envie um ticket para o suporte para que possamos corrigir o titulo inválido."
+    			]
+    		},
+    		"bighero": {
+    			"color": "§6",
+    			"name": "Grande heroi",
+    			"description": [
+    				"Concedido-lhe por apoiar a nobre causa deste imenso universo conhecido como 'Intion'.", 
+    				"*Agradecimento por adquirir  o grupo VIP."
+    			]
+    		},
+    		"thedreamer": {
+    			"color": "§d",
+    			"name": "O sonhador",
+    			"description": [
+    				"Concedido-lhe por possibilitar que todos seres do universo 'Intion' tenham grandes sonhos.",
+    				"*Agradecimento por adquirir  o grupo VIP+."
+    			]
+    		},
+    		"tricktreating": {
+    			"color": "§6",
+    			"name": "Doces ou Travesuras?",
+    			"description": [
+    				"Concedido-lhe ao ter localizado todas as vinte abóboras espalhadas pelo universo 'Intion'."
+    			]
+    		},
+    		"killordie": {
+    			"color": "§4",
+    			"name": "Matar ou Morrer!",
+    			"description": [
+    				"Apenas um grandioso monstro conseguiria realizar mais de trinta abates totais.",
+    				"*Agradecimento por se empenhar no combate."
+    			]
+    		},
+    		"warmachine": {
+    			"color": "§4",
+    			"name": "Maquina de combate",
+    			"description": [
+    				"Um ótimo desempenho em combate é para poucos, ser capaz de eliminar cinco abates seguidos menos ainda.",
+    				"*Agradecimento por se empenhar no combate."
+    			]
+    		}
+    	},
+    	"menu": {
+    		"hotbar": {
+    			"combat": {
+    				"default": "§r§aModo combate",
+    				"exit": "§r§aSair de combate"
+    			},
+    			"servers": "§r§aServidores",
+    			"gadgets": "§r§aBugingangas",
+    			"lobbies": "§r§aLobbies",
+                "profile": "§r§aPerfil"
+    		}
+    	},
+        "view": {
+            "server": {
+                "list": {
+                    "title": "Lista de servidores",
+                    "content": "§eEscolha um servidor ao qual deseja ver as §linformações§r§e.",
+                    "lobby": "§eEscolha um lobby ao quao deseja entrar.",
+                    "button": [
+                        "{serverName}",
+                        "§8(Mais informações)"
+                    ]
+                },
+                "info": {
+                    "title": "{serverName} ({state})",
+                    "content": {
+                        "skywars": [
+                            "§eUm modo de jogo rápido repleto de ação e adrenalina.",
+                            "§e§lAtaque§r§e ilhas inimigas atrás de §e§lalmas§r§e e seja o ultimo a sobreviver.",
+                            "§7Junte-se a outros §e{count} §7jogadores.",
+                            "§7Há §e{friends}§7 amigos jogando neste momento."
+                        ],
+                        "factions": [
+                            "§7Servidor em desenvolvimento, em breve disponivel.",
+                            "§7Junte-se a outros §e{count} §7jogadores.",
+                            "§7Há §e{friends}§7 amigos jogando neste momento."
+                        ]
+                    }
+                },
+                "lobby": {
+                    "title": "Lobbies",
+                    "content": "§eSelecione um dos lobbies listados abaixo.",
+                    "button": [
+                        "#{serverName}",
+                        "{state}"
+                    ],
+                    "state": {
+                        "default": "Mais informações.",
+                        "here": "Hey! Você está aqui."
+                    }
+                }
+            },
+            "profile": {
+            	"title": "Perfil do(a) {name}",
+            	"content": "§eSelecione uma das categorias abaixo.",
+            	"categories": {
+            		"geral": "Geral",
+            		"combat": "Combate",
+            		"titles": "Titulos",
+            		"settings": "Configurações"
+            	}
+            },
+            "combatinfo": {
+            	"title": "Estatisticas de combate",
+            	"content": [
+            		"§7Abates: §e{kills}",
+            		"§7Mortes: §e{deaths}"
+            	]
+            },
+            "titlelist": {
+            	"title": "Titulos do(a) {name}",
+            	"content": [
+            		"§7Titulos são obtidos apenas por aqueles que completarem objetivos.",
+            		"§7*Para mais informações sobre titulos, visite nosso site.",
+            		"§eSeus titulos estão listados abaixo, selecione um para ver as informações."
+            	]
+            }
+        },
+        "npc": {
+            "server": {
+                "titles": {
+                    "1": [
+                        "§l§c{name}§r",
+                        "§cOffline no momento."
+                    ],
+                    "2": [
+                        "§l§a{name}§r",
+                        "§l§a{count}§r§a jogadores online."
+                    ],
+                    "3": [
+                        "§l§e{name}§r",
+                        "§eEm manutenção."
+                    ],
+                    "4": [
+                        "§l§e{name}§r",
+                        "§eEm breve."
+                    ]
+                }
+            }
+        },
+        "combat": {
+        	"starting": "§eEntrando no modo combate em §l{time}§r§es.",
+        	"aborted": "§cVocê desistiu do modo §lcombate§r§c.",
+        	"started": "§aModo combate §liniciado§r§a.",
+        	"exit": "§cVocê saiu do modo combate.",
+        	"death": "§c{victim} foi morto em combate por {killer}.",
+        	"prize": "§aPor ter matado um jogador você ganhou uma Maça Dourada."
+        },
+        "status": {
+            "online": "Online",
+            "offline": "Offline",
+            "maintenance": "Manutenção"
+        },
+        "buttons": {
+        	"enter": "Entrar",
+            "play": "Jogar",
+        	"confirm": "Confirmar",
+        	"back": "Voltar",
+        	"exit": "Sair",
+            "close": "Fechar",
+        	"enable": "Habilitar",
+        	"disable": "Desabilitar"
+        },
+        "scoreboard": {
+        	"title": "§l§3INTION§r§7 ({server})",
+        	"lines": [
+        		"§r",
+        		"  §l» §r§fSkywars: §b{server.skywars}  ",
+        		"  §l» §r§fFactions: §b{server.factions}  ",
+        		"§r§r",
+                "  §b{online}§b jogadores.  ",
+                "§r§r§r"
+        	],
+        	"footer": "    §bwww.intion.cc    "
+        },
+        "isHere": "Você já está neste servidor.",
+        "maintenance": "O servidor está em manutenção, tente novamente mais tarde.",
+        "offline": "O servidor está offline, tente novamente mais tarde.",
+        "soon": "O servidor encontra-se em desenvolvimento, em breve estará disponivel a todos."
+    }
+}
