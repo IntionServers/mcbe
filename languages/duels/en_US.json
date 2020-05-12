@@ -35,6 +35,13 @@
       "ranked": "Ranked"
     },
 
+        "profile-content": "{n} Kills: {0} {n} Deaths: {1} {n} Wins: {2} {n}",
+
+    "leaderboard": {
+      "kills": "Top players by kills",
+      "wins": "Top players by wins"
+    },
+
     "bossbar": {
       "title": "Kills: {0} | Deaths: {1} | K/D: {2}",
       "subtitle":  "Rank: {0} | Points: {1}"
@@ -44,6 +51,12 @@
       "general": "General",
       "leaderboard": "Leaderboard",
       "settings": "Settings"
+    },
+
+    "games": {
+      "standard": "Standard",
+      "op": "OP",
+      "sumo": "Sumô"
     },
 
     "games": {
