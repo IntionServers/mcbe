@@ -47,10 +47,11 @@
       "subtitle":  "Rank: {0} | Points: {1}"
     },
 
-    "profile": {
+   "profile": {
       "general": "General",
       "leaderboard": "Leaderboard",
-      "settings": "Settings"
+      "settings": "Settings",
+      "quit": "Quit"
     },
 
     "games": {
