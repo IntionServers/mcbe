@@ -41,9 +41,10 @@
     },
 
     "profile": {
-      "general": "General",
-      "leaderboard": "Leaderboard",
-      "settings": "Settings"
+      "general": "Geral",
+      "leaderboard": "TOP",
+      "settings": "Configurações",
+      "quit": "Sair"
     },
     
     "profile-content": "{n} Kills: {0} {n} Mortes: {1} {n} Vitorias: {2} {n}",
