@@ -1,0 +1,299 @@
+{
+	"name": "Portuguese",
+	"code": "pt_BR",
+	"server": "skywars",
+	"version": "1.0.1",
+	"messages": {
+		"item": {
+			"name": {
+				"perfil": "Seu perfil",
+				"kit": "Selecione um kit",
+				"lobby": "Ir para o lobby",
+				"locate": "Localize um player",
+				"hab": "Selecione uma habilidade",
+				"shop": "Loja",
+				"gameagain": "Jogue novamente"
+			}
+		},
+		"kit": {
+			"nokit": "§cNenhum",
+			"type": {
+				"free": "Gratis",
+				"level": "Level {0}", 
+				"buy": "Compre por {0}c",
+				"case": "Exclusivo da caixa {0}"
+			},
+			"basic": {
+				"name": "Basico",
+				"desc": "descrição do kit {0}"
+			},
+			"rush": {
+				"name": "Rushador",
+				"desc": "descrição do kit {0}"
+			},
+			"ninja": {
+				"name": "Ninja",
+				"desc": "descrição do kit {0}"
+			} 
+		},
+		"hab": {
+			"donthave": "Dont have habilities, buy in lobby!",
+			"type": {
+				"free": "Gratis",
+				"level": "Level {0}", 
+				"buy": "Compre por {0}c",
+				"case": "Exclusivo da caixa {0}"
+			},
+			"nohab": "§cNenhuma",
+			"luckyblock": {
+				"name": "Bloco da Sorte",
+				"desc": "Quebre um bloco e tenha a chance de achar uma maçã dourada!"
+			}
+		},
+		"box": {
+			"1": {
+				"float": "§dAlma da Sorte§r{n}§l§eCLIQUE PARA ABRIR§r",
+				"name": "§dAlma da Sorte§r§f",
+				"desc": "Nesta caixa existe a possibilidade de você ganhar alguns kits ou até mesmo habilidades."
+			},
+			"float": {
+				"select": "{0}s restantes para selecionar..."
+			},
+			"reward": {
+				"coins": "§6[Moedas] §f{0}",
+				"kit": "§9[Kit] §f{0}",
+				"hab": "§9[Habilidade] §f{0}"
+			},
+			"message": {
+				"wonhab": "§aParabens! §fVoce ganhou a habilidade: §f{0}.",
+				"wonkit": "§aParabens! §fVoce ganhou o kit: §f{0}.",
+				"woncoins": "§aParabens! §fVoce ganhou §6{0} moedas§f.",
+				"hadkit": "§7Como foi já tinha o kit §f{0}§7, uma quantia de §d{1} souls§7 foi adicionado em sua conta.",
+				"hadhab": "§7Como foi já tinha a habilidade §f{0}§7, uma quantia de §d{1} souls§7 foi adicionado em sua conta.",
+				"end": {
+					"title": "§ePremios que foram gerados: ",
+					"reward": "{n} §7- {0} {1}",
+					"select": "§aSelecionado§r§f"
+				},
+				"recuseopen": "§cVocê recusou a abertura da caixa.",
+				"confirmopen": "§aA abertura da caixa está começando..."
+			},
+			"tip": {
+				"openning": "§cVocê já está abrindo uma caixa.",
+				"needsouls": "§cVocê precisa de {0} souls para abrir a caixa."
+			}
+		},
+		"ui": {
+			"kit": {
+				"button": "{0} {n}{1}",
+				"title": "Kits",
+				"content": {
+					"error": " §l§3»§r§b Você já selecionou o kit §f{0}§b!",
+					"confirm": "Confirm the kit {0} selection: {n}"
+				},
+				"selected": "Selecionado",
+				"unselected": "Não selecionado"
+			},
+			"shop": {
+				"button": {
+					"kits": "Kits",
+					"habs": "Habilidades"
+				},
+				"title": "Loja",
+				"content": "Compre seus kits ou habilidades"
+			},
+			"shopkit": {
+				"button": "{0}{n}{1}",
+				"title": "Loja de Kits",
+				"content": "Compre seus kit",
+				"btnback": "Voltar",
+				"error": {
+					"level": "Kit somente disponivel no level {0}.",
+					"case": "Kit somente disponivel na abertura da caixa {0}.",
+					"nocoins": "Voce precisa de {0} para comprar o kit."
+				},
+				"confirm": {
+					"content": "Descrição do kit: {0} {n} {n} Você confirma a compra do kit {1}, com o preço {2}?"
+				}
+			},
+			"shophab": {
+				"button": "{0}{n}{1}",
+				"title": "Loja de Habilidades",
+				"content": "Compre suas habilidades",
+				"btnback": "Voltar",
+				"error": {
+					"level": "Habilidade somente disponivel no level {0}.",
+					"case": "Habilidade somente disponivel na abertura da caixa {0}."
+				}
+			},
+			"hab": {
+				"button": "{0} {n}{1}",
+				"title": "Habilidades",
+				"content": {
+					"error": " §l§3»§r§b Você já selecionou a habilidade§f {0}§b!",
+					"confirm": "Confirm the hability {0} selection: {n} {1}"
+				},
+				"selected": "Selecionado",
+				"unselected": "Não selecionado"
+			},
+			"arena": {
+				"button": "{0} ({1}/{2}){n}{3}",
+				"title": "Selecione uma sala",
+				"btnrandom": "Sala aleatória"
+			},
+			"locate": {
+				"title": "§6Localizar jogador",
+				"button": "{0}"
+			},
+			"profile": {
+				"button": "§cFechar",
+				"title": "Perfil",
+				"content": "Kills: {0} {n}Deaths: {1}{n}Wins: {2}"
+			},
+			"confirm": {
+				"button": "§aConfirmar",
+				"title": "Confirme a ação"
+			},
+			"recuse": {
+				"button": "§cRecusar"
+			},
+			"box": {
+				"content": "Confirmação da abertura da caixa: {0} {n}{1}{n}§fEssa caixa tem custo de §d{2} souls§f, você confirma sua ação?."
+			}
+		},
+		"buy": {
+			"kit": {
+				"sucess": "Voce comprou o kit {0} com sucesso!"
+			}
+		},
+		"arena": {
+			"playerjoin": " §l§a»§r§7 {0} §eentrou nesta sala.§a ({1}/{2}).",
+			"playerquit": " §l§c»§r§7 {0} §eabandonou a partida. §c({1}/{2})",
+			"notfound": " §cNenhuma arena encontrada.",
+			"found": " §aRedirecionado para a arena {0}.",
+			"sucessjoin": " §l§3»§r§b Você entrou na sala - {0}",
+			"needplayers": "§6Aguardando por§f {0} §6jogadore(s)",
+			"maxplayers": " §l§b»§r§3 Está sala lotou, contador reduzido!",
+			"drawngame": "Drawn game",
+			"playerwin": "§aVocê venceu!",
+			"playerplaying": "§6Você já está em uma sala.",
+			"full": "§cSala cheia.",
+			"end": "§cFim de jogo, mais sorte da próxima vez!",
+			"endwin": "§aParabéns!!",
+			"ranktitle": "Rank abates:",
+			"rankno": "- {0}) ...",
+			"rank1": "- {0}) {1}: {2}",
+			"rank2": "- {0}) {1}: {2}",
+			"rank3": "- {0}) {1}: {2}",
+			"refil": "§eBaús reabastecidos!",
+			"time": "Fim {0}",
+			"refilscore": "Refil {0}",
+			"start": {
+				"title": "Iniciando em:",
+				"subtitle": "§a{0} segundo(s)..."
+			},
+			"death": {
+				"contact": " §l§6»§r§7 {0} §emorreu.",
+				"suffocation": " §l§6»§r§7 {0} §emorreu sufocado!",
+				"fall": " §l§6»§r§7 {0} §ecaiu de um lugar muito alto.",
+				"burn": " §l§6»§r§7 {0} §emorreu queimado.",
+				"drowning": " §l§6»§r§7 {0} §emorreu afogado.",
+				"explosion": " §l§6»§r§7 {0} §efoi explodido.",
+				"void": " §l§6»§r§7 {0} §ecaiu no void",
+			    "suicide": " §l§6»§r§7 {0} se matou.",
+				"magic": "{0} died for magic.",
+				"starvation": "{0} starved to death",
+				"undefined": " §l§6»§r§7 {0} §emorreu.",
+				"byplayer": " §l§6»§r§7 {0} §efoi morto por §7 {1}§e."
+			},
+			"tip": {
+				"kill": "§6+{0}§d+{1}"
+			}			
+		},
+		"confirm": {
+			"kit": "§eKit selecionado:§f {0}",
+			"hab": "§eHabilidade selecionada:§f {0}"
+		},
+		"recuse": {
+			"kit": "Recused confirm of kit {0}",
+			"hab": "Selected hability: {0}"
+		},
+		"limittime": {
+			"kit": "The limit time for select kit has been excedded",
+			"hab": "The limit time for select hability has been excedded"
+		},
+		"checkkitfail": "Check kit fail.",
+		"checkhabfail": "Check hability fail.",
+		"stage": {
+			"0": "§eAguardando...",
+			"1": "§aIniciando...",
+			"2": "§cEm jogo!",
+			"3": "§6Preparando..."
+		},
+		"npc": {
+			"nametag": "§6Entrar na sala{n}{0}",
+			"noplayer": "§cNenhum jogador",
+			"hasplayer": "§e{0} jogadores"
+		},
+		"top": {
+			"kills": {
+				"pos1": "§3{0}. §f{1}{n}Abates: §7{2}",
+				"pos2": "§6{0}. §f{1}{n}Abates: §7{2}",
+				"pos3": "§7{0}. §f{1}{n}Abates: §7{2}",
+				"noplayer": "§f{0}. §cNenhum"
+			},
+			"wins": {
+				"pos1": "§3{0}. §f{1}{n}Wins: §7{2}",
+				"pos2": "§6{0}. §f{1}{n}Wins: §7{2}",
+				"pos3": "§7{0}. §f{1}{n}Wins: §7{2}",
+				"noplayer": "§f{0}. §cNenhum"
+			}
+		},
+		"scoreboard": {
+			"lobby": {
+				"name": "§l§aSKY WARS§r",
+				"1": " ",
+				"2": " Nick:§7 {0}",
+				"3": " Kit:§a {1} ",
+				"4": " Habilidade:§a {2} ",
+				"5": " ",
+				"6": " Coins: §6{3}",
+				"7": " Souls: §d{4}",
+				"8": " "
+			},
+			"stage0": {
+				"name": "§l§aSKY WARS§r",
+				"1": " ",
+				"2": " Stage: {0}",
+				"3": " Tempo:§a {1}s",
+				"4": " ",
+				"5": " Jogadores:§a {2}/{3}",
+				"6": " "
+			},
+			"stage1": {
+				"name": "§l§aSKY WARS§r",
+				"1": " ",
+				"2": " Stage: {0}",
+				"3": " Tempo:§a {1}s",
+				"4": " ",
+				"5": " Jogadores:§a  {2}/{3}",
+				"6": " "
+			},
+			"stage2": {
+				"name": "§l§aSKY WARS§r",
+				"1": " ",
+				"2": " Próximo evento:",
+				"3": " §a{0}", 
+				"4": " ", 
+				"5": " Restam: {1}", 
+				"6": " Abates: {2}", 
+				"7": " ",
+				"8": " {3}",
+				"9": " {4}",
+				"10": " {5}",
+				"11": " {6}",
+				"12": " "
+			}
+		}
+	}
+}
