@@ -55,33 +55,33 @@
     },
 
     "games": {
-      "standard": "Standard",
-      "op": "OP",
-      "sumo": "Sumô"
+      "standard": "Padrão {n} Jogadores na fila: {0}",
+      "op": "OP {n} Jogadores na fila: {0}",
+      "sumo": "Sumô {n} Jogadores na fila: {0}"
     },
 
     "ranks": {
-      "0": "IronIII",
-      "1": "IronII",
-      "2": "IronI",
+      "0": "FerroIII",
+      "1": "FerroII",
+      "2": "FerroI",
       "3": "BronzeIII",
       "4": "BronzeII",
       "5": "BronzeI",
-      "6": "SilverIII",
-      "7": "SilverII",
-      "8": "SilverI",
-      "9": "GoldIII",
-      "10": "GoldII",
-      "11": "GoldI",
-      "12": "PlatinumIII",
-      "13": "PlatinumII",
-      "14": "PlatinumI",
-      "15": "DiamondIII",
-      "16": "DiamondII",
-      "17": "DiamondI",
-      "18": "Master",
-      "19": "GrandMaster",
-      "20": "Challenger"
+      "6": "PrataIII",
+      "7": "PrataII",
+      "8": "PrataI",
+      "9": "OuroIII",
+      "10": "OuroII",
+      "11": "OuroI",
+      "12": "PlatinaIII",
+      "13": "PlatinaII",
+      "14": "PlatinaI",
+      "15": "DiamanteIII",
+      "16": "DiamanteII",
+      "17": "DiamanteI",
+      "18": "Mestre",
+      "19": "GrandeMestre",
+      "20": "Desafiante"
     }
 
   }
