@@ -24,7 +24,9 @@
       "nullqueue": "You aren't in queue.",
       "notexistsmode": "This mode not exists.",
       "duel": "Duel against {0}",
-      "restarting": "This match is restarting now, teleporting all players to lobby."
+      "restarting": "This match is restarting now, teleporting all players to lobby.",
+      "notfound": "Not found.",
+      "topnotfound": "Top {0} not found"
     },
 
     "forms": {
