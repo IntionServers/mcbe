@@ -24,7 +24,8 @@
       "nullqueue": "Você não está em uma fila.",
       "notexistsmode": "Este modo não existe.",
       "duel": "Duelo contra o jogador: {0}",
-      "restarting": "Esta arena está reiniciando, teleportando todos os jogadores dela para o lobby."
+      "restarting": "Esta arena está reiniciando, teleportando todos os jogadores dela para o lobby.",
+      "notfound": "Não encontrado."
     },
 
     "forms": {
