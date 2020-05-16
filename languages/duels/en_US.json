@@ -39,7 +39,8 @@
 
     "leaderboard": {
       "kills": "Top players by kills",
-      "wins": "Top players by wins"
+      "wins": "Top players by wins",
+      "points": "Top players by points"
     },
 
     "bossbar": {
