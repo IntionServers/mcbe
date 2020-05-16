@@ -50,8 +50,9 @@
     "profile-content": "{n} Kills: {0} {n} Mortes: {1} {n} Vitorias: {2} {n}",
 
     "leaderboard": {
-      "kills": "Top players por kills",
-      "wins": "Top players por vitorias"
+      "kills": "Top jogadores por kills",
+      "wins": "Top jogadores por vitorias",
+      "points": "Top jogadores por pontos",
     },
 
     "games": {
