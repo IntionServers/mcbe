@@ -38,7 +38,7 @@
       "ranked": "Ranked"
     },
 
-        "profile-content": "{n} Kills: {0} {n} Deaths: {1} {n} Wins: {2} {n}",
+        "profile-content": "{n} Kills: {0} {n} Deaths: {1} {n} Wins: {2} {n} K/D: {3} {n} Rank: {4} {n} Rank Points: {5} {n}",
 
     "leaderboard": {
       "kills": "Top players by kills",
@@ -49,6 +49,18 @@
     "bossbar": {
       "title": "Kills: {0} | Deaths: {1} | K/D: {2}",
       "subtitle":  "Rank: {0} | Points: {1}"
+    },
+    
+    "scoreboard": {
+      "                   ",
+      " Tag: {0} ",
+      " Rank: {1} ",
+      "  Points: {2}         ",
+      "                 ",
+      " Kills: {3} ",
+      " Deaths: {4} ",
+      "                ",
+      " www.intion.cc "
     },
 
    "profile": {
