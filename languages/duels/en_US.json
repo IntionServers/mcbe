@@ -52,6 +52,7 @@
     },
     
     "scoreboard": {
+      "content": {
       "                   ",
       " Tag: {0} ",
       " Rank: {1} ",
@@ -61,6 +62,7 @@
       " Deaths: {4} ",
       "                ",
       " www.intion.cc "
+      }
     },
 
    "profile": {
