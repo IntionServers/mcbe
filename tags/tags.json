@@ -1,14 +1,14 @@
 {
   "Player": {
-    "format": "§7",
+    "format": "§7{PLAYER}§8: §7{MESSAGE}",
     "permissions": []
   },
   "VIP": {
-    "format": "§e[VIP]",
+    "format": "§e[VIP] §f{PLAYER}§8: §7{MESSAGE}",
     "permissions": []
   },
   "Master": {
-    "format": "§6[Master]",
+    "format": "§6[Master] §f{PLAYER}§8: §7{MESSAGE}",
     "permissions": []
   }
 }
