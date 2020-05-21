@@ -1,19 +1,14 @@
 {
-  "tags": {
-  "player": {
-    "format": "§7(Player)",
-    "permissions": [],
-    "players": [],
- },
-"vip": {
-   "format": "§a[VIP]",
-   "permissions": [],
-   "players": [],
-    },
- "master": {
-  "format": "§6[Master]",
-  "permissions": [],
-  "players": [],
+  "Player": {
+    "format": "§7",
+    "permissions": []
   },
- }
+  "VIP": {
+    "format": "§e[VIP]",
+    "permissions": []
+  },
+  "Master": {
+    "format": "§6[Master]",
+    "permissions": []
+  }
 }
