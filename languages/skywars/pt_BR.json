@@ -2,7 +2,7 @@
 	"name": "Portuguese",
 	"code": "pt_BR",
 	"server": "skywars",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"messages": {
 		"item": {
 			"name": {
