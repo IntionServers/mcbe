@@ -34,6 +34,30 @@
 			"ninja": {
 				"name": "Ninja",
 				"desc": "descrição do kit {0}"
+			},
+			"frog": {
+				"name": "Sapo",
+				"desc": "descrição do kit {0}"
+			},
+			"witcher": {
+				"name": "Bruxo",
+				"desc": "descrição do kit {0}"
+			},
+			"troll": {
+				"name": "Troll",
+				"desc": "descrição do kit {0}"
+			},
+			"paladin": {
+				"name": "Paladino",
+				"desc": "descrição do kit {0}"
+			},
+			"warrior": {
+				"name": "Guerreiro",
+				"desc": "descrição do kit {0}"
+			},
+			"archer": {
+				"name": "Arqueiro",
+				"desc": "descrição do kit {0}"
 			} 
 		},
 		"hab": {
@@ -48,6 +72,14 @@
 			"luckyblock": {
 				"name": "Bloco da Sorte",
 				"desc": "Quebre um bloco e tenha a chance de achar uma maçã dourada!"
+			},
+			"resistant": {
+				"name": "Resistente",
+				"desc": "Quando você tomar alguns danos vão ser reduzidos em 20%%"
+			},
+			"assassin": {
+				"name": "Assassino",
+				"desc": "Quando você matar alguem ganhe Força I (2s)"
 			}
 		},
 		"box": {
@@ -163,7 +195,7 @@
 		},
 		"buy": {
 			"kit": {
-				"sucess": "Voce comprou o kit {0} com sucesso!"
+				"success": "Voce comprou o kit {0} com sucesso!"
 			}
 		},
 		"arena": {
@@ -180,6 +212,7 @@
 			"full": "§cSala cheia.",
 			"end": "§cFim de jogo, mais sorte da próxima vez!",
 			"endwin": "§aParabéns!!",
+			"winmessage": "§6{0} §aganhou a partida!",
 			"ranktitle": "Rank abates:",
 			"rankno": "- {0}) ...",
 			"rank1": "- {0}) {1}: {2}",
@@ -207,7 +240,8 @@
 				"byplayer": " §l§6»§r§7 {0} §efoi morto por §7 {1}§e."
 			},
 			"tip": {
-				"kill": "§6+{0}§d+{1}"
+				"kill": "§6+{0}§d+{1}",
+				"win": "§6+{0}"
 			}			
 		},
 		"confirm": {
@@ -236,6 +270,7 @@
 			"hasplayer": "§e{0} jogadores"
 		},
 		"top": {
+			"loading": "§eCarregando...",
 			"kills": {
 				"pos1": "§3{0}. §f{1}{n}Abates: §7{2}",
 				"pos2": "§6{0}. §f{1}{n}Abates: §7{2}",
@@ -276,7 +311,7 @@
 				"2": " Stage: {0}",
 				"3": " Tempo:§a {1}s",
 				"4": " ",
-				"5": " Jogadores:§a  {2}/{3}",
+				"5": " Jogadores:§a {2}/{3}",
 				"6": " "
 			},
 			"stage2": {
