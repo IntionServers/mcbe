@@ -186,9 +186,28 @@
                 "button": "{0}"
             },
             "profile": {
-                "button": "\u00a7cFechar",
                 "title": "Perfil",
-                "content": "Kills: {0} {n}Deaths: {1}{n}Wins: {2}"
+                "button": {
+                    "statistics": "Estátisticas",
+                    "config": "Configurações"
+                }
+            },
+            "statistics": {
+                "title": {
+                    "normal": "Estátisticas",
+                    "another": "Estátisticas de {0}"
+                },
+                "button": {
+                    "back": "Voltar",
+                    "close": "Fechar"
+                },
+                "content": "Kills: {0} {n}Deaths: {1}{n}Wins: {2} {n}Losses: {3}"
+            },
+            "config": {
+                "title": "Configurações",
+                "button": {
+                    "back": "Voltar"
+                }
             },
             "confirm": {
                 "button": "\u00a7aConfirmar",
@@ -227,30 +246,30 @@
             "refil": "\u00a7eBa\u00fas reabastecidos!",
             "time": "Fim {0}",
             "refilscore": "Refil {0}",
-            "stoptimer": "§cTemporizador parado por falta de jogadores.",
-            "sendspawn": "§eTeleportando para as cages...",
+            "stoptimer": "\u00a7cTemporizador parado por falta de jogadores.",
+            "sendspawn": "\u00a7eTeleportando para as cages...",
             "start": {
                 "title": "Iniciando em:",
                 "subtitle": "\u00a7a{0} segundo(s)..."
             },
             "win": {
-                "title": "§aParabéns!",
-                "subtitle": "§7Você ganhou..."
+                "title": "\u00a7aParab\u00e9ns!",
+                "subtitle": "\u00a77Voc\u00ea ganhou..."
             },
             "killed": {
-                "title": "§cVocê foi eliminado!",
-                "subtitle": "§7Tente novamente em outra partida."
+                "title": "\u00a7cVoc\u00ea foi eliminado!",
+                "subtitle": "\u00a77Tente novamente em outra partida."
             },
             "endgame": {
-                "title": "§cFim de Jogo",
-                "subtitle": "§7Mais sorte na proxima partida."
+                "title": "\u00a7cFim de Jogo",
+                "subtitle": "\u00a77Mais sorte na proxima partida."
             },
             "resume": {
-                "kills": " §6+{0} §f- Abates",
-                "win": " §6+{0} §f- Vitória",
-                "header": "  §eResumo da partida: ",
-                "nogain": " §cNenhum ganho.",
-                "total": " §fTotal: §6{0}"
+                "kills": " \u00a76+{0} \u00a7f- Abates",
+                "win": " \u00a76+{0} \u00a7f- Vit\u00f3ria",
+                "header": "  \u00a7eResumo da partida: ",
+                "nogain": " \u00a7cNenhum ganho.",
+                "total": " \u00a7fTotal: \u00a76{0}"
             },
             "death": {
                 "contact": " \u00a7l\u00a76\u00bb\u00a7r\u00a77 {0} \u00a7emorreu.",
@@ -310,6 +329,10 @@
                 "pos3": "\u00a77{0}. \u00a7f{1}{n}Wins: \u00a77{2}",
                 "noplayer": "\u00a7f{0}. \u00a7cNenhum"
             }
+        },
+        "messages": {
+            "prefixspec": "§7[Espectador]§f",
+            "chatoff": "Seu chat está desabilitado! Habilite nas configurações."
         },
         "scoreboard": {
             "lobby": {
