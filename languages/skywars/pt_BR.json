@@ -355,7 +355,8 @@
         },
         "messages": {
             "prefixspec": "§7[Espectador]§f",
-            "chatoff": "§eSeu chat está desabilitado! Habilite nas configurações."
+            "chatoff": "§eSeu chat está desabilitado! Habilite nas configurações.",
+            "height": "§cNão é possivel colocar blocos a partir dessa altura!"
         },
         "scoreboard": {
             "lobby": {
