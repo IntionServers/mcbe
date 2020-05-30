@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "messages": {
         "item": {
             "name": {
@@ -211,12 +211,12 @@
                 "chat": {
                     "toggle": "Chat",
                     "label": "Chat label",
-                    "messsage": "Seu chat foi {0}."
+                    "message": "Seu chat foi {0}."
                 },
                 "next": {
                     "toggle": "Proxima partida",
                     "label": "Proxima partida label",
-                    "messsage": "A proxima partida foi {0}."
+                    "message": "A proxima partida foi {0}."
                 },
                 "button": {
                     "back": "Voltar"
