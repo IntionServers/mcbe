@@ -2,52 +2,72 @@
     "name": "English",
     "code": "en_US",
     "server": "hub",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "messages": {
         "titles": {
+            "enabled": "§eTitle hub '{titleName}' is now active.",
+            "disabled": "§eYour title has been disabled.",
+            "format": {
+                "default": [
+                    "{color}» {name} «",
+                    "{nickname}"
+                ],
+                "tag": [
+                    "{color}» {name} «",
+                    "{tag} {nickname}"
+                ]
+            },
             "unknown": {
                 "name": "Unknown",
                 "description": [
-                    "Envie um ticket para o suporte para que possamos corrigir o titulo inválido."
+                    "Submit a ticket to support so that we can correct the invalid title."
+                ]
+            },
+            "beta": {
+                "color": "§3",
+                "name": "Since the beginning",
+                "description": [
+                    "Only visionary people can see the greatness of the 'Intion' universe and support its continued growth.",
+                    "*Thanks for participating in the BETA version"
                 ]
             },
             "bighero": {
                 "color": "§6",
-                "name": "Grande heroi",
+                "name": "Big hero",
                 "description": [
-                    "Concedido-lhe por apoiar a nobre causa deste imenso universo conhecido como 'Intion'.", 
-                    "*Agradecimento por adquirir  o grupo VIP."
+                    "Granted for supporting the noble cause of this immense universe known as 'Intion'.", 
+                    "*Thanks for purchasing the VIP group."
                 ]
             },
             "thedreamer": {
                 "color": "§d",
-                "name": "O sonhador",
+                "name": "The dreamer",
                 "description": [
-                    "Concedido-lhe por possibilitar que todos seres do universo 'Intion' tenham grandes sonhos.",
-                    "*Agradecimento por adquirir  o grupo VIP+."
+                    "Awarded for making it possible for all beings in the 'Intion' universe to have big dreams.",
+                    "*Thanks for purchasing the VIP+ group."
                 ]
             },
             "tricktreating": {
                 "color": "§6",
-                "name": "Doces ou Travesuras?",
+                "name": "Trick or treating?",
                 "description": [
-                    "Concedido-lhe ao ter localizado todas as vinte abóboras espalhadas pelo universo 'Intion'."
+                    "Awarded to you for locating all twenty pumpkins scattered across the 'Intion' universe."
                 ]
             },
             "killordie": {
                 "color": "§4",
-                "name": "Matar ou Morrer!",
+                "name": "Kill or die!",
                 "description": [
-                    "Apenas um grandioso monstro conseguiria realizar mais de trinta abates totais.",
-                    "*Agradecimento por se empenhar no combate."
+                    "Only one great monster could make more than thirty total kills.",
+                    "*Thanks for committing to combat."
                 ]
             },
             "warmachine": {
                 "color": "§4",
-                "name": "Maquina de combate",
+                "name": "War machine",
                 "description": [
-                    "Um ótimo desempenho em combate é para poucos, ser capaz de eliminar cinco abates seguidos menos ainda.",
-                    "*Agradecimento por se empenhar no combate."
+                    "Great combat performance is for a few, being able to eliminate five kills in a row, even less.",
+                    "*Thanks for committing to combat."
                 ]
             }
         },
@@ -78,15 +98,20 @@
                     "title": "{serverName} ({state})",
                     "content": {
                         "skywars": [
-                            "§eUm modo de jogo rápido repleto de ação e adrenalina.",
-                            "§e§lAtaque§r§e ilhas inimigas atrás de §e§lalmas§r§e e seja o ultimo a sobreviver.",
-                            "§7Junte-se a outros §e{count} §7jogadores.",
-                            "§7Há §e{friends}§7 amigos jogando neste momento."
+                            "§eA fast-paced gameplay filled with action and adrenaline.",
+                            "§e§lAttack§r§e enemy islands after §e§lsouls§r§e and be the last to survive.",
+                            "§7Join §e{count} §7other players.",
+                            "§7There are §e{friends}§7 friends playing right now"
                         ],
-                        "factions": [
+                        "gemgrab:soon": [
                             "§7Server under development, available soon.",
-                            "§7Junte-se a outros §e{count} §7jogadores.",
-                            "§7Há §e{friends}§7 amigos jogando neste momento."
+                            "§7Join §e{count} §7other players.",
+                            "§7There are §e{friends}§7 friends playing right now"
+                        ],
+                        "duels:soon": [
+                            "§7Server under development, available soon.",
+                            "§7Join §e{count} §7other players.",
+                            "§7There are §e{friends}§7 friends playing right now"
                         ]
                     }
                 },
@@ -104,29 +129,85 @@
                 }
             },
             "profile": {
-                "title": "Perfil do(a) {name}",
-                "content": "§eSelecione uma das categorias abaixo.",
+                "title": "Profile of {name}",
+                "content": "§eSelect once of categories listed here down.",
                 "categories": {
                     "geral": "Geral",
-                    "combat": "Combate",
-                    "titles": "Titulos",
-                    "settings": "Configurações"
+                    "combat": "Combat Stats",
+                    "titles": "Hub Title",
+                    "friends": "Friends",
+                    "settings": "Settings"
                 }
             },
             "combatinfo": {
-                "title": "Estatisticas de combate",
+                "title": "Combat statistics",
                 "content": [
-                    "§7Abates: §e{kills}",
-                    "§7Mortes: §e{deaths}"
+                	"§7Nickname: §e{name}",
+                    "§7Kill's: §e{kills}",
+                    "§7Death's: §e{deaths}",
+                    "§7K/D: §e{kdr}"
                 ]
             },
             "titlelist": {
-                "title": "Titulos do(a) {name}",
-                "content": [
-                    "§7Titulos são obtidos apenas por aqueles que completarem objetivos.",
-                    "§7*Para mais informações sobre titulos, visite nosso site.",
-                    "§eSeus titulos estão listados abaixo, selecione um para ver as informações."
+            	"title": "Titles of {name}",
+            	"content": [
+            		"§7Titles are obtained only by those who complete objectives.",
+            		"§7*For more information on titles, visit our website.",
+            		"§eYour titles are listed below, select one to see the information."
+                ],
+                "format": [
+                    "{name}",
+                    "(More information)"
                 ]
+            },
+            "gadgets": {
+                "title": "Gadgets",
+                "content": [
+                    "§eTest our §lexperimental§r§e gadgets.",
+                    "§eIt's §lcrazy§r§e, I just say that, be very careful!",
+                    "§eHave fun and good luck:)"
+                ],
+                "format": [
+                    "{category}",
+                    "(More information)"
+                ],
+                "categories": {
+                    "costumes": "Costumes"
+                }
+            },
+            "costumes": {
+                "title": "Costumes",
+                "content": [
+                    "§eStand out among the players wearing stylish and unique outfits."
+                ],
+                "format": [
+                    "{name}",
+                    "(More details)"
+                ],
+                "list": {
+                    "113": "Constructor"
+                },
+                "details": {
+                    "title": "{name} (costume)",
+                    "content": [
+                        "§eStand out among the players wearing stylish and unique outfits.",
+                        " ",
+                        "§8*Using the option below you can activate and deactivate the costume."
+                    ],
+                    "enabled_with_success": "§eYour '{name}' costume has been successfully placed, have fun :)",
+                    "disabled_with_success": "§eYour costume has been changed to your default skin.",
+                    "not_allowed_to_disable_skin": "§eYou cannot disable this costume, as your original SKIN was invalid."
+                }
+            },
+            "settings": {
+                "title": "Settings",
+                "content": [
+                    "Adjust the server settings in the way that best suits you."
+                ],
+                "messages": {
+                    "hided": "§ePlayers were hidden (reduces FPS drops).",
+                    "showing": "§eAll players are now visible."
+                }
             }
         },
         "npc": {
@@ -172,23 +253,28 @@
             "exit": "Exit",
             "close": "Close",
             "enable": "Enable",
-            "disable": "Disable"
+            "disable": "Disable",
+            "hide_players": "Hide players",
+            "show_players": "Show players"
         },
         "scoreboard": {
             "title": "§l§3INTION§r§7 ({server})",
             "lines": [
                 "§r",
                 "  §l» §r§fSkywars: §b{server.skywars}  ",
-                "  §l» §r§fFactions: §b{server.factions}  ",
+                "  §l» §r§fDuels: §b{server.duels:soon}  ",
+                "  §l» §r§fGemGrab: §b{server.gemgrab:soon}  ",
                 "§r§r",
                 "  §b{online} players.  ",
                 "§r§r§r"
             ],
             "footer": "    §bwww.intion.cc    "
         },
-        "isHere": "You already in this server.",
-        "maintenance": "O servidor está em manutenção, tente novamente mais tarde.",
-        "offline": "O servidor está offline, tente novamente mais tarde.",
-        "soon": "O servidor encontra-se em desenvolvimento, em breve estará disponivel a todos."
+        "isHere": "§aYou already in this server.",
+        "maintenance": "§eThe server is down for maintenance, please try again later.",
+        "offline": "§cThe server is offline, try again later.",
+        "soon": "§eThe server is in development, it will soon be available to everyone.",
+        "action_try_again": "§eThis action could not be performed, please try again.",
+        "system_in_developement": "§eThis system is currently under development."
     }
 }

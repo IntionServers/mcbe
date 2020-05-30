@@ -2,21 +2,42 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "hub",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "messages": {
     	"titles": {
+            "enabled": "§eO titulo '{titleName}' agora está ativo.",
+            "disabled": "§eO titulo foi desativado com sucesso.",
+            "format": {
+                "default": [
+                    "{color}» {name} «",
+                    "{nickname}"
+                ],
+                "tag": [
+                    "{color}» {name} «",
+                    "{tag} {nickname}"
+                ]
+            },
     		"unknown": {
     			"name": "Unknown",
     			"description": [
     				"Envie um ticket para o suporte para que possamos corrigir o titulo inválido."
     			]
-    		},
+            },
+            "beta": {
+                "color": "§3",
+                "name": "Desde os primórdios",
+                "description": [
+                    "Somente pessoas visionárias conseguem enxergar a grandeza do universo 'Intion' e apoiar seu crescimento continuo.",
+                    "*Agradecimento por participar da versão de testes."
+                ]
+            },
     		"bighero": {
     			"color": "§6",
     			"name": "Grande heroi",
     			"description": [
     				"Concedido-lhe por apoiar a nobre causa deste imenso universo conhecido como 'Intion'.", 
-    				"*Agradecimento por adquirir  o grupo VIP."
+                    "*Agradecimento por adquirir  o grupo VIP.",
+                    "§eAdquirido em {date} {hour}"
     			]
     		},
     		"thedreamer": {
@@ -24,14 +45,16 @@
     			"name": "O sonhador",
     			"description": [
     				"Concedido-lhe por possibilitar que todos seres do universo 'Intion' tenham grandes sonhos.",
-    				"*Agradecimento por adquirir  o grupo VIP+."
+    				"*Agradecimento por adquirir  o grupo VIP+.",
+                    "§eAdquirido em {date} {hour}"
     			]
     		},
     		"tricktreating": {
     			"color": "§6",
     			"name": "Doces ou Travesuras?",
     			"description": [
-    				"Concedido-lhe ao ter localizado todas as vinte abóboras espalhadas pelo universo 'Intion'."
+    				"Concedido-lhe ao ter localizado todas as vinte abóboras espalhadas pelo universo 'Intion'.",
+                    "§eAdquirido em {date} {hour}"
     			]
     		},
     		"killordie": {
@@ -39,7 +62,8 @@
     			"name": "Matar ou Morrer!",
     			"description": [
     				"Apenas um grandioso monstro conseguiria realizar mais de trinta abates totais.",
-    				"*Agradecimento por se empenhar no combate."
+    				"*Agradecimento por se empenhar no combate.",
+                    "§eAdquirido em {date} {hour}"
     			]
     		},
     		"warmachine": {
@@ -47,7 +71,8 @@
     			"name": "Maquina de combate",
     			"description": [
     				"Um ótimo desempenho em combate é para poucos, ser capaz de eliminar cinco abates seguidos menos ainda.",
-    				"*Agradecimento por se empenhar no combate."
+    				"*Agradecimento por se empenhar no combate.",
+                    "§eAdquirido em {date} {hour}"
     			]
     		}
     	},
@@ -83,7 +108,12 @@
                             "§7Junte-se a outros §e{count} §7jogadores.",
                             "§7Há §e{friends}§7 amigos jogando neste momento."
                         ],
-                        "factions": [
+                        "gemgrab:soon": [
+                            "§7Servidor em desenvolvimento, em breve disponivel.",
+                            "§7Junte-se a outros §e{count} §7jogadores.",
+                            "§7Há §e{friends}§7 amigos jogando neste momento."
+                        ],
+                        "duels:soon": [
                             "§7Servidor em desenvolvimento, em breve disponivel.",
                             "§7Junte-se a outros §e{count} §7jogadores.",
                             "§7Há §e{friends}§7 amigos jogando neste momento."
@@ -110,14 +140,17 @@
             		"geral": "Geral",
             		"combat": "Combate",
             		"titles": "Titulos",
+            		"friends": "Amigos(as)",
             		"settings": "Configurações"
             	}
             },
             "combatinfo": {
             	"title": "Estatisticas de combate",
             	"content": [
-            		"§7Abates: §e{kills}",
-            		"§7Mortes: §e{deaths}"
+                    "§7Nome: §e{name}",
+                    "§7Abates: §e{kills}",
+                    "§7Mortes: §e{deaths}",
+                    "§7A/M: §e{kdr}"
             	]
             },
             "titlelist": {
@@ -126,7 +159,60 @@
             		"§7Titulos são obtidos apenas por aqueles que completarem objetivos.",
             		"§7*Para mais informações sobre titulos, visite nosso site.",
             		"§eSeus titulos estão listados abaixo, selecione um para ver as informações."
-            	]
+                ],
+                "format": [
+                    "{name}",
+                    "(Mais informações)"
+                ]
+            },
+            "gadgets": {
+                "title": "Bugiganga('s)",
+                "content": [
+                    "§eTeste nossas bugigangas §lexperimentais§r§e.",
+                    "§eÉ coisa de §llouco§r§e, so digo isto, tome bastante cuidado!",
+                    "§eDivirta-se ao máximo e boa sorte :)"
+                ],
+                "format": [
+                    "{category}",
+                    "(Mais informações)"
+                ],
+                "categories": {
+                    "costumes": "Trajes"
+                }
+            },
+            "costumes": {
+                "title": "Trajes",
+                "content": [
+                    "§eDestaque-se entre os jogadores utilizando trajes estilosos e únicos."
+                ],
+                "format": [
+                    "{name}",
+                    "(Mais detalhes)"
+                ],
+                "list": {
+                    "113": "Construtor"
+                },
+                "details": {
+                    "title": "{name} (traje)",
+                    "content": [
+                        "§eDestaque-se entre os jogadores utilizando trajes estilosos e únicos.",
+                        " ",
+                        "§8*Utilizando a opção abaixo você poderá ativar e desativar o traje."
+                    ],
+                    "enabled_with_success": "§eSeu traje '{name}' foi colocado com sucesso, divirta-se :)",
+                    "disabled_with_success": "§eSeu traje foi alterado para a sua SKIN original.",
+                    "not_allowed_to_disable_skin": "§eVocê não pode desativar este traje, pois sua SKIN original era invalida."
+                }
+            },
+            "settings": {
+                "title": "Configurações",
+                "content": [
+                    "Ajuste as configurações do servidor da forma que melhor atende-lo."
+                ],
+                "messages": {
+                    "hided": "§eOs jogadores foram escondidos (reduz quedas FPS).",
+                    "showing": "§eTodos os jogadores agora estão visiveis."
+                }
             }
         },
         "npc": {
@@ -172,23 +258,28 @@
         	"exit": "Sair",
             "close": "Fechar",
         	"enable": "Habilitar",
-        	"disable": "Desabilitar"
+            "disable": "Desabilitar",
+            "hide_players": "Esconder jogadores",
+            "show_players": "Mostrar jogadores"
         },
         "scoreboard": {
         	"title": "§l§3INTION§r§7 ({server})",
         	"lines": [
         		"§r",
         		"  §l» §r§fSkywars: §b{server.skywars}  ",
-        		"  §l» §r§fFactions: §b{server.factions}  ",
+                "  §l» §r§fDuels: §b{server.duels:soon}  ",
+                "  §l» §r§fGemGrab: §b{server.gemgrab:soon}  ",
         		"§r§r",
                 "  §b{online}§b jogadores.  ",
                 "§r§r§r"
         	],
         	"footer": "    §bwww.intion.cc    "
         },
-        "isHere": "Você já está neste servidor.",
-        "maintenance": "O servidor está em manutenção, tente novamente mais tarde.",
-        "offline": "O servidor está offline, tente novamente mais tarde.",
-        "soon": "O servidor encontra-se em desenvolvimento, em breve estará disponivel a todos."
+        "isHere": "§aVocê já está neste servidor.",
+        "maintenance": "§eO servidor está em manutenção, tente novamente mais tarde.",
+        "offline": "§cO servidor está offline, tente novamente mais tarde.",
+        "soon": "§eO servidor encontra-se em desenvolvimento, em breve estará disponivel a todos.",
+        "action_try_again": "§eNão foi possivel realizar está ação, tente novamente.",
+        "system_in_developement": "§eEste sistema atualmente encontra-se em desenvolvimento."
     }
 }
