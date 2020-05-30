@@ -25,39 +25,39 @@
             },
             "basic": {
                 "name": "Basico",
-                "desc": "descri\u00e7\u00e3o do kit {0}"
+                "desc": "descri\u00e7\u00e3o do kit"
             },
             "rush": {
                 "name": "Rushador",
-                "desc": "descri\u00e7\u00e3o do kit {0}"
+                "desc": "descri\u00e7\u00e3o do kit"
             },
             "ninja": {
                 "name": "Ninja",
-                "desc": "descri\u00e7\u00e3o do kit {0}"
+                "desc": "descri\u00e7\u00e3o do kit"
             },
             "frog": {
                 "name": "Sapo",
-                "desc": "descri\u00e7\u00e3o do kit {0}"
+                "desc": "descri\u00e7\u00e3o do kit"
             },
             "witcher": {
                 "name": "Bruxo",
-                "desc": "descri\u00e7\u00e3o do kit {0}"
+                "desc": "descri\u00e7\u00e3o do kit"
             },
             "troll": {
                 "name": "Troll",
-                "desc": "descri\u00e7\u00e3o do kit {0}"
+                "desc": "descri\u00e7\u00e3o do kit"
             },
             "paladin": {
                 "name": "Paladino",
-                "desc": "descri\u00e7\u00e3o do kit {0}"
+                "desc": "descri\u00e7\u00e3o do kit"
             },
             "warrior": {
                 "name": "Guerreiro",
-                "desc": "descri\u00e7\u00e3o do kit {0}"
+                "desc": "descri\u00e7\u00e3o do kit"
             },
             "archer": {
                 "name": "Arqueiro",
-                "desc": "descri\u00e7\u00e3o do kit {0}"
+                "desc": "descri\u00e7\u00e3o do kit"
             }
         },
         "hab": {
