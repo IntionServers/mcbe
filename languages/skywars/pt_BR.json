@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "messages": {
         "item": {
             "name": {
@@ -205,6 +205,19 @@
             },
             "config": {
                 "title": "Configurações",
+                "label": "Clique em enviar para salvar as alterações!",
+                "disable": "Desativado",
+                "able": "Ativado",
+                "chat": {
+                    "toggle": "Chat",
+                    "label": "Chat label",
+                    "messsage": "Seu chat foi {0}."
+                },
+                "next": {
+                    "toggle": "Proxima partida",
+                    "label": "Proxima partida label",
+                    "messsage": "A proxima partida foi {0}."
+                },
                 "button": {
                     "back": "Voltar"
                 }
@@ -230,6 +243,10 @@
             "playerquit": " \u00a7l\u00a7c\u00bb\u00a7r\u00a77 {0} \u00a7eabandonou a partida. \u00a7c({1}\/{2})",
             "notfound": " \u00a7cNenhuma arena encontrada.",
             "found": " \u00a7aRedirecionado para a arena {0}.",
+            "auto": {
+                "found": "Foi encontrado uma partida no mapa {0}.",
+                "notfound": "Não foi encontrado uma partida."
+            },
             "sucessjoin": " \u00a7l\u00a73\u00bb\u00a7r\u00a7b Voc\u00ea entrou na sala - {0}",
             "needplayers": "\u00a76Aguardando por\u00a7f {0} \u00a76jogadore(s)",
             "maxplayers": " \u00a7l\u00a7b\u00bb\u00a7r\u00a73 Est\u00e1 sala lotou, contador reduzido!",
@@ -328,6 +345,12 @@
                 "pos2": "\u00a76{0}. \u00a7f{1}{n}Wins: \u00a77{2}",
                 "pos3": "\u00a77{0}. \u00a7f{1}{n}Wins: \u00a77{2}",
                 "noplayer": "\u00a7f{0}. \u00a7cNenhum"
+            }
+        },
+        "commands": {
+            "hub": {
+                "sending": "Você está sendo enviado para o Hub.",
+                "inarena": "Este comando não pode ser usado em uma arena."
             }
         },
         "messages": {
