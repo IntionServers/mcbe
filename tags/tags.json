@@ -2,7 +2,10 @@
     "Player": {
         "format": "§7{PLAYER}: §f{MESSAGE}",
         "display": "§7{PLAYER}",
-        "permissions": []
+        "permissions": [
+            "eae.cmd",
+            "teste.cmd"
+        ]
     },
     "VIP": {
         "format": "§e[VIP] {PLAYER}: §f{MESSAGE}",
