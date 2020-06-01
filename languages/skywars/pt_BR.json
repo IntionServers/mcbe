@@ -21,7 +21,7 @@
                 "free": "§aGrátis",
                 "level": "§eNível:§7 {0}",
                 "buy": "§6Adquira por §7{0} §6moeda(s)",
-                "case": "§eExclusivo da caixa {0}"
+                "case": "§5Exclusivo da caixa {0}"
             },
             "basic": {
                 "name": "Basico",
@@ -66,7 +66,7 @@
                 "free": "Gratis",
                 "level": "§eNível:§7 {0}",
                 "buy": "§6Adquirir por §7{0} §6moeda(s)",
-                "case": "§eExclusivo da caixa {0}"
+                "case": "§5Exclusivo da caixa {0}"
             },
             "nohab": "§cNenhuma",
             "luckyblock": {
@@ -92,7 +92,7 @@
         },
         "box": {
             "1": {
-                "float": "§dAlma da Sorte§r{n}§l§eCLIQUE PARA ABRIRr",
+                "float": "§dAlma da Sorte§r{n}§l§eCLIQUE PARA ABRIR§r",
                 "name": "§dAlma da Sorte§r§f",
                 "desc": "§7* Na §dAlma da Sorte§7 você terá a chance de ganhar kits, habilidades e muito mais!"
             },
@@ -120,7 +120,7 @@
             },
             "tip": {
                 "openning": "§cVocê já está abrindo alguma caixa.",
-                "needsouls": "§6São necessárias §d({0} souls) §6para abrir a caixa misteriosa."
+                "needsouls": "§eSão necessárias §l{0}§r§e almas para abrir a caixa."
             }
         },
         "ui": {
@@ -201,7 +201,7 @@
                     "back": "Voltar",
                     "close": "Fechar"
                 },
-                "content": "Kills: {0} {n}Deaths: {1}{n}Wins: {2} {n}Losses: {3}"
+                "content": "Abates: {0} {n}Mortes: {1}{n}Vitórias: {2} {n}Derrotas: {3}"
             },
             "config": {
                 "title": "Configurações",
@@ -211,11 +211,11 @@
                 "chat": {
                     "toggle": "Chat",
                     "label": "§7Desabilite o §echat §7para não receber mensagens de outros jogadores.",
-                    "message": "§7Seu §echat §7foi {0}."
+                    "message": "§7Seu chat foi §e{0}."
                 },
                 "next": {
                     "toggle": "Proxima partida",
-                    "label": "§7A §eProxima partida§7 faz você ir automaticamente para outra partida depois de morrer ou ganhar!",
+                    "label": "§7A opção '§eProxima partida§7' faz você ir automaticamente para outra partida após morrer ou ganhar!",
                     "message": "§7A §eProxima partida§7 foi {0}."
                 },
                 "button": {
@@ -256,10 +256,10 @@
             "end": "§cFim de jogo, mais sorte da próxima vez!",
             "winmessage": "§6{0} §aganhou a partida!",
             "ranktitle": "Rank abates:",
-            "rankno": "- {0}) ...",
-            "rank1": "- {0}) {1}: {2}",
-            "rank2": "- {0}) {1}: {2}",
-            "rank3": "- {0}) {1}: {2}",
+            "rankno": "- {0}° ...",
+            "rank1": "- {0}° {1}: {2}",
+            "rank2": "- {0}° {1}: {2}",
+            "rank3": "- {0}° {1}: {2}",
             "refil": "§eBaús reabastecidos!",
             "time": "Fim {0}",
             "refilscore": "Refil {0}",
@@ -270,37 +270,37 @@
                 "subtitle": "§a{0} segundo(s)..."
             },
             "win": {
-                "title": "§aParabéns!",
-                "subtitle": "§7Você ganhou..."
+                "title": "§l§aParabéns!§r",
+                "subtitle": "§7Você ganhou a partida."
             },
             "killed": {
-                "title": "§cVocê foi eliminado!",
-                "subtitle": "§7Tente novamente em outra partida."
+                "title": "§l§cEliminado§r",
+                "subtitle": "§7Que pena, quem sabe na próxima?"
             },
             "endgame": {
                 "title": "§cFim de Jogo",
                 "subtitle": "§7Mais sorte na proxima partida."
             },
             "resume": {
-                "kills": " §6+{0} §f- Abates",
+                "kills": "§6+{0} §f- Abates",
                 "win": " §6+{0} §f- Vitória",
                 "header": "  §eResumo da partida: ",
                 "nogain": " §cNenhum ganho.",
-                "total": " §fTotal: §6{0}"
+                "total": "§fTotal: §6{0}"
             },
             "death": {
-                "contact": " §l§6\u00bb§r§7 {0} §emorreu.",
-                "suffocation": " §l§6\u00bb§r§7 {0} §emorreu sufocado!",
-                "fall": " §l§6\u00bb§r§7 {0} §ecaiu de um lugar muito alto.",
-                "burn": " §l§6\u00bb§r§7 {0} §emorreu queimado.",
-                "drowning": " §l§6\u00bb§r§7 {0} §emorreu afogado.",
-                "explosion": " §l§6\u00bb§r§7 {0} §efoi explodido.",
-                "void": " §l§6\u00bb§r§7 {0} §ecaiu no void",
-                "suicide": " §l§6\u00bb§r§7 {0} se matou.",
-                "magic": " §l§6\u00bb§r§7{0} §emorreu por magia.",
-                "starvation": " §l§6\u00bb§r§7{0} §e",
-                "undefined": " §l§6\u00bb§r§7 {0} §emorreu.",
-                "byplayer": " §l§6\u00bb§r§7 {0} §efoi morto por §7 {1}§e."
+                "contact": "§l§6\u00bb§r§7 {0} §emorreu.",
+                "suffocation": "§l§6\u00bb§r§7 {0} §emorreu sufocado!",
+                "fall": "§l§6\u00bb§r§7 {0} §ecaiu de um lugar muito alto.",
+                "burn": "§l§6\u00bb§r§7 {0} §emorreu queimado.",
+                "drowning": "§l§6\u00bb§r§7 {0} §emorreu afogado.",
+                "explosion": "§l§6\u00bb§r§7 {0} §efoi explodido.",
+                "void": "§l§6\u00bb§r§7 {0} §ecaiu no void",
+                "suicide": "§l§6\u00bb§r§7 {0} se matou.",
+                "magic": "§l§6\u00bb§r§7{0} §emorreu por magia.",
+                "starvation": "§l§6\u00bb§r§7{0} §e",
+                "undefined": "§l§6\u00bb§r§7 {0} §emorreu.",
+                "byplayer": "§l§6\u00bb§r§7 {0} §efoi morto por §7 {1}§e."
             },
             "tip": {
                 "kill": "§6+{0}§d+{1}",
@@ -335,15 +335,15 @@
         "top": {
             "loading": "§eCarregando...",
             "kills": {
-                "pos1": "§3{0}. §f{1}{n}Abates: §7{2}",
-                "pos2": "§6{0}. §f{1}{n}Abates: §7{2}",
-                "pos3": "§7{0}. §f{1}{n}Abates: §7{2}",
+                "pos1": "§3{0}° §f{1}{n}Abates: §7{2}",
+                "pos2": "§6{0}° §f{1}{n}Abates: §7{2}",
+                "pos3": "§7{0}° §f{1}{n}Abates: §7{2}",
                 "noplayer": "§f{0}. §cNenhum"
             },
             "wins": {
-                "pos1": "§3{0}. §f{1}{n}Wins: §7{2}",
-                "pos2": "§6{0}. §f{1}{n}Wins: §7{2}",
-                "pos3": "§7{0}. §f{1}{n}Wins: §7{2}",
+                "pos1": "§3{0}° §f{1}{n}Wins: §7{2}",
+                "pos2": "§6{0}° §f{1}{n}Wins: §7{2}",
+                "pos3": "§7{0}° §f{1}{n}Wins: §7{2}",
                 "noplayer": "§f{0}. §cNenhum"
             }
         },
