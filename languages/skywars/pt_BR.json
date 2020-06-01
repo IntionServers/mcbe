@@ -201,7 +201,7 @@
                     "back": "Voltar",
                     "close": "Fechar"
                 },
-                "content": "Abates: {0} {n}Mortes: {1}{n}Vitórias: {2} {n}Derrotas: {3}"
+                "content": "§7Abates: §e{0} {n}§7Mortes: §e{1}{n}§7Vitórias: §e{2} {n}§7Derrotas: §e{3}"
             },
             "config": {
                 "title": "Configurações",
@@ -338,13 +338,13 @@
                 "pos1": "§3{0}° §f{1}{n}Abates: §7{2}",
                 "pos2": "§6{0}° §f{1}{n}Abates: §7{2}",
                 "pos3": "§7{0}° §f{1}{n}Abates: §7{2}",
-                "noplayer": "§f{0}. §cNenhum"
+                "noplayer": "§f{0}° §cNenhum"
             },
             "wins": {
                 "pos1": "§3{0}° §f{1}{n}Wins: §7{2}",
                 "pos2": "§6{0}° §f{1}{n}Wins: §7{2}",
                 "pos3": "§7{0}° §f{1}{n}Wins: §7{2}",
-                "noplayer": "§f{0}. §cNenhum"
+                "noplayer": "§f{0}° §cNenhum"
             }
         },
         "commands": {
