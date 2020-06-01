@@ -13,8 +13,7 @@
         "format": "§6[Master] {PLAYER}: §f{MESSAGE}",
         "display": "§6[Master] {PLAYER}",
         "permissions": [
-            "eae.cmd",
-            "teste.cmd"
+            "staff.util"
         ]
     }
 }
