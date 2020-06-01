@@ -20,8 +20,8 @@
             "type": {
                 "free": "§aGrátis",
                 "level": "§eNível:§7 {0}",
-                "buy": "§6Adquira por §7{0} §6moeda(s)",
-                "case": "§5Exclusivo da caixa {0}"
+                "buy": "§8Adquira por §e{0} §8moeda(s)",
+                "case": "§8Exclusivo da caixa {0}"
             },
             "basic": {
                 "name": "Basico",
