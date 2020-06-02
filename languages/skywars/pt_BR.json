@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.0.9",
+    "version": "1.0.11",
     "messages": {
         "item": {
             "name": {
@@ -33,31 +33,31 @@
             },
             "ninja": {
                 "name": "Ninja",
-                "desc": "Descrição do kit"
+                "desc": "Não basta ter ótimos reflexos, com um pouco de futividade todos conseguem realizar seu objetivo."
             },
             "frog": {
                 "name": "Sapo",
-                "desc": "Descrição do kit"
+                "desc": "Saltos, saltos e mais saltos! Tome bastante cuidado para não quebrar as pernas ao exagerar."
             },
             "witcher": {
                 "name": "Bruxo",
-                "desc": "Descrição do kit"
+                "desc": "Séculos se passaram e ainad existe pessoas capazes de utilizar mágia pelas sombras, que tal se juntar a aliança?"
             },
             "troll": {
                 "name": "Troll",
-                "desc": "Descrição do kit"
+                "desc": "Apenas os bobos da corte conseguiam fazer o rei dar gargalhadas, você se acha no mesmo nivel? Então prove!"
             },
             "paladin": {
                 "name": "Paladino",
-                "desc": "Descrição do kit"
+                "desc": "Um herói errante ressurgiu dos mortos, apenas aqueles capazes de controla-lo pode possui-lo e usar ao seu favor!"
             },
             "warrior": {
                 "name": "Guerreiro",
-                "desc": "Descrição do kit"
+                "desc": "Destemido desde os tempos antigos, sempre encarando o perigo sem medo, junte-se a batalha e consiga a vitória se você for capaz!"
             },
             "archer": {
                 "name": "Arqueiro",
-                "desc": "Descrição do kit"
+                "desc": "Ótima pontaria! É o que diria, não são muitos que tem a perspicácia para criar estratégias e abater o inimigo."
             }
         },
         "hab": {
