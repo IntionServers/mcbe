@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "messages": {
         "item": {
             "name": {
@@ -20,16 +20,16 @@
             "type": {
                 "free": "§aGrátis",
                 "level": "§eNível:§7 {0}",
-                "buy": "§8Adquira por §e{0} §8moeda(s)",
+                "buy": "§8Adquira por §e{0} §8moeda(s)",
                 "case": "§8Exclusivo da caixa {0}"
             },
             "basic": {
                 "name": "Basico",
-                "desc": "Descrição do kit"
+                "desc": "Itens úteis? Talvez, o que se sabe é que podem quebrar um galho."
             },
             "rush": {
                 "name": "Rushador",
-                "desc": "Descrição do kit"
+                "desc": "Hey bro, lhe falta velocidade! Que tal abater inimigos de forma rápida e indolor?"
             },
             "ninja": {
                 "name": "Ninja",
