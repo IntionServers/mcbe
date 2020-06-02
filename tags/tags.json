@@ -22,5 +22,11 @@
         "permissions": [
             "staff.util"
         ]
+    },
+    "Youtuber": {
+        "format": "§c[Youtuber] {PLAYER}: §f{MESSAGE}",
+        "display": "§c[Youtuber] {PLAYER}",
+        "permissions": [
+        ]
     }
 }
