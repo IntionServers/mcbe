@@ -15,5 +15,12 @@
         "permissions": [
             "staff.util"
         ]
+    },
+    "Builder": {
+        "format": "§b[Builder] {PLAYER}: §f{MESSAGE}",
+        "display": "§b[Builder] {PLAYER}",
+        "permissions": [
+            "staff.util"
+        ]
     }
 }
