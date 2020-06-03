@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "messages": {
         "item": {
             "name": {
@@ -217,6 +217,11 @@
                     "toggle": "Proxima partida",
                     "label": "§7A opção '§eProxima partida§7' faz você ir automaticamente para outra partida após morrer ou ganhar!",
                     "message": "§7A §eProxima partida§7 foi {0}."
+                },
+                "score": {
+                    "toggle": "Scoreboard",
+                    "label": "§7A opção '§eScoreboard§7' permite que a mesma seja mostrada no lado direito de sua tela.",
+                    "message": "§7A §eScoreboard§7 foi {0}."
                 },
                 "button": {
                     "back": "Voltar"
