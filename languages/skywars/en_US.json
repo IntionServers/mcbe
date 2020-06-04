@@ -1,0 +1,412 @@
+{
+    "name": "Portuguese",
+    "code": "pt_BR",
+    "server": "skywars",
+    "version": "1.0.12",
+    "messages": {
+        "item": {
+            "name": {
+                "perfil": "§r§aSeu perfil",
+                "kit": "§r§eSelecione um kit",
+                "lobby": "§r§cVoltar ao lobby",
+                "locate": "§r§6Localize um jogador",
+                "hab": "§r§bSelecione uma habilidade",
+                "shop": "§r§6Loja",
+                "gameagain": "§r§aJogar novamente"
+            }
+        },
+        "kit": {
+            "nokit": "§cNenhum",
+            "type": {
+                "free": "§aGrátis",
+                "level": "§eNível:§7 {0}",
+                "buy": "§8Adquira por §e{0} §8moeda(s) ",
+                "case": "§8Exclusivo da caixa {0}"
+            },
+            "basic": {
+                "name": "Basico",
+                "desc": "Itens úteis? Talvez, o que se sabe é que podem quebrar um galho."
+            },
+            "rush": {
+                "name": "Rushador",
+                "desc": "Hey bro, lhe falta velocidade! Que tal abater inimigos de forma rápida e indolor?"
+            },
+            "ninja": {
+                "name": "Ninja",
+                "desc": "Não basta ter ótimos reflexos, com um pouco de futividade todos conseguem realizar seu objetivo."
+            },
+            "frog": {
+                "name": "Sapo",
+                "desc": "Saltos, saltos e mais saltos! Tome bastante cuidado para não quebrar as pernas ao exagerar."
+            },
+            "witcher": {
+                "name": "Bruxo",
+                "desc": "Séculos se passaram e ainad existe pessoas capazes de utilizar mágia pelas sombras, que tal se juntar a aliança?"
+            },
+            "troll": {
+                "name": "Troll",
+                "desc": "Apenas os bobos da corte conseguiam fazer o rei dar gargalhadas, você se acha no mesmo nivel? Então prove!"
+            },
+            "paladin": {
+                "name": "Paladino",
+                "desc": "Um herói errante ressurgiu dos mortos, apenas aqueles capazes de controla-lo pode possui-lo e usar ao seu favor!"
+            },
+            "warrior": {
+                "name": "Guerreiro",
+                "desc": "Destemido desde os tempos antigos, sempre encarando o perigo sem medo, junte-se a batalha e consiga a vitória se você for capaz!"
+            },
+            "archer": {
+                "name": "Arqueiro",
+                "desc": "Ótima pontaria! É o que diria, não são muitos que tem a perspicácia para criar estratégias e abater o inimigo."
+            }
+        },
+        "hab": {
+            "donthave": "§cVocê não possuí habilidades, adquira no Lobbie (SkyWars)!",
+            "type": {
+                "free": "Gratis",
+                "level": "§eNível:§7 {0}",
+                "buy": "§6Adquirir por §7{0} §6moeda(s)",
+                "case": "§5Exclusivo da caixa {0}"
+            },
+            "nohab": "§cNenhuma",
+            "luckyblock": {
+                "name": "Bloco da Sorte",
+                "desc": "§7 * Quebre um bloco e tenha a chance de achar uma maçã dourada!"
+            },
+            "resistant": {
+                "name": "Resistente",
+                "desc": "§7 * Quando você receber algum dano será reduzido 20%%!"
+            },
+            "assassin": {
+                "name": "Assassino",
+                "desc": "§7 * Ao eliminar um jogador você receberá um efeito de Força I por 2 segundos!"
+            },
+            "masterend": {
+                "name": "Mestre do Fim",
+                "desc": "§7 * Ao usar uma Pérola do fim tenha 25%% de chance de reduzir o dano em 50%%"
+            },
+            "infire": {
+                "name": "Em chamas",
+                "desc": "§7 * Ao acertar uma flecha em algum jogador, tenha 5%% de chance de atear fogo em seu inimigo por 5 segundos!"
+            }
+        },
+        "box": {
+            "1": {
+                "float": "§dAlma da Sorte§r{n}§l§eCLIQUE PARA ABRIR§r",
+                "name": "§dAlma da Sorte§r§f",
+                "desc": "§7* Na §dAlma da Sorte§7 você terá a chance de ganhar kits, habilidades e muito mais!"
+            },
+            "float": {
+                "select": "§c{0}segundo(s) restantes para selecionar..."
+            },
+            "reward": {
+                "coins": "§6[Coins] §f{0}",
+                "kit": "§a[Kit] §f{0}",
+                "hab": "§a[Habilidade] §f{0}"
+            },
+            "message": {
+                "wonhab": "§a × §7Voce ganhou a habilidade §a({0})§7!",
+                "wonkit": "§a × §7Voce ganhou o kit §a({0})§7!",
+                "woncoins": "§a × §7Voce ganhou §6({0} coins)§7!",
+                "hadkit": "§e × Como você já possuí o kit §a{0}§e, uma quantia de §d{1} almas§e foi adicionado em sua conta.",
+                "hadhab": "§e × Como você já possuí a habilidade §a{0}§e, uma quantia de §d{1} almas §efoi adicionado em sua conta.",
+                "end": {
+                    "title": "§bPrêmios que foram gerados: ",
+                    "reward": "{n} §7- {0} {1}",
+                    "select": "§aSelecionado§f"
+                },
+                "recuseopen": "§cVocê cancelou a  abertura da caixa.",
+                "confirmopen": "§aA caixa misteriosa está sendo aberta.."
+            },
+            "tip": {
+                "openning": "§cVocê já está abrindo alguma caixa.",
+                "needsouls": "§eSão necessárias §l{0}§r§e almas para abrir a caixa."
+            }
+        },
+        "ui": {
+            "kit": {
+                "button": "{0} {n}{1}",
+                "title": "Kits",
+                "content": {
+                    "error": "§cVocê já selecionou o kit§f {0}§c!",
+                    "confirm": "§7Você confirma a seleção do kit: §f{0} §7?"
+                },
+                "selected": "Selecionado",
+                "unselected": "Não selecionado"
+            },
+            "shop": {
+                "button": {
+                    "kits": "Kits",
+                    "habs": "Habilidades"
+                },
+                "title": "Loja",
+                "content": "Compre seus kits ou habilidades"
+            },
+            "shopkit": {
+                "button": "{0}{n}{1}",
+                "title": "Loja de Kits",
+                "content": "Compre seus kit",
+                "btnback": "Voltar",
+                "error": {
+                    "level": "Kit somente disponivel no level {0}.",
+                    "case": "Kit somente disponivel na abertura da caixa {0}.",
+                    "nocoins": "Voce precisa de §6{0} moedas§f para comprar o kit."
+                },
+                "confirm": {
+                    "content": "Descrição do kit: {0} {n} {n} Você confirma a compra do kit {1}, com o preço de §6{2}§f?"
+                }
+            },
+            "shophab": {
+                "button": "{0}{n}{1}",
+                "title": "Loja de Habilidades",
+                "content": "Compre suas habilidades",
+                "btnback": "Voltar",
+                "error": {
+                    "level": "Habilidade somente disponivel no level {0}.",
+                    "case": "Habilidade somente disponivel na abertura da caixa {0}."
+                }
+            },
+            "hab": {
+                "button": "{0} {n}{1}",
+                "title": "Habilidades",
+                "content": {
+                    "error": "§cVocê já selecionou a habilidade§f {0}§c!",
+                    "confirm": "§7Você confirma a seleção da habilidade: §f{0} §7?§f{n} {1}"
+                },
+                "selected": "Selecionado",
+                "unselected": "Não selecionado"
+            },
+            "arena": {
+                "button": "{0} ({1}/{2}){n}{3}",
+                "title": "Selecione uma sala",
+                "btnrandom": "Sala aleatória"
+            },
+            "locate": {
+                "title": "Localizar jogador",
+                "button": "{0}"
+            },
+            "profile": {
+                "title": "Perfil",
+                "button": {
+                    "statistics": "Estátisticas",
+                    "config": "Configurações"
+                }
+            },
+            "statistics": {
+                "title": {
+                    "normal": "Estátisticas",
+                    "another": "Estátisticas de {0}"
+                },
+                "button": {
+                    "back": "Voltar",
+                    "close": "Fechar"
+                },
+                "content": "§7Abates: §e{0} {n}§7Mortes: §e{1}{n}§7Vitórias: §e{2} {n}§7Derrotas: §e{3}"
+            },
+            "config": {
+                "title": "Configurações",
+                "label": "§eClique em enviar para salvar as alterações!",
+                "disable": "§cDesativado",
+                "able": "§aAtivado",
+                "chat": {
+                    "toggle": "Chat",
+                    "label": "§7Desabilite o §echat §7para não receber mensagens de outros jogadores.",
+                    "message": "§7Seu chat foi §e{0}."
+                },
+                "next": {
+                    "toggle": "Proxima partida",
+                    "label": "§7A opção '§eProxima partida§7' faz você ir automaticamente para outra partida após morrer ou ganhar!",
+                    "message": "§7A §eProxima partida§7 foi {0}."
+                },
+                "score": {
+                    "toggle": "Scoreboard",
+                    "label": "§7A opção '§eScoreboard§7' permite que a mesma seja mostrada no lado direito de sua tela.",
+                    "message": "§7A §eScoreboard§7 foi {0}."
+                },
+                "button": {
+                    "back": "Voltar"
+                }
+            },
+            "confirm": {
+                "button": "§aConfirmar",
+                "title": "Confirme a ação"
+            },
+            "recuse": {
+                "button": "§cRecusar"
+            },
+            "box": {
+                "content": "Confirmação da abertura da caixa: {0} {n}{1}{n}§fEssa caixa tem custo de §d{2} almas§f, você confirma sua ação?."
+            }
+        },
+        "buy": {
+            "kit": {
+                "success": "Você comprou o kit {0} com sucesso!"
+            }
+        },
+        "arena": {
+            "playerjoin": " §l§a\u00bb§r§7 {0} §eentrou nesta sala.§a ({1}/{2}).",
+            "playerquit": " §l§c\u00bb§r§7 {0} §eabandonou a partida. §c({1}/{2})",
+            "notfound": " §cNenhuma arena encontrada.",
+            "found": " §aRedirecionado para a arena {0}.",
+            "auto": {
+                "found": "§aFoi encontrado uma partida no mapa §f{0}§a.",
+                "notfound": "§cNão foi encontrado uma partida."
+            },
+            "sucessjoin": " §l§3\u00bb§r§b Você entrou na sala - {0}",
+            "needplayers": "§6Aguardando por§f {0} §6jogadore(s)",
+            "maxplayers": " §l§b\u00bb§r§3 Está sala lotou, contador reduzido!",
+            "drawngame": "§eEmpatou o jogo! Ninguém ganhou, mas também ninguém perdeu...",
+            "playerplaying": "§6Você já está em uma sala.",
+            "full": "§cSala cheia.",
+            "end": "§cFim de jogo, mais sorte da próxima vez!",
+            "winmessage": "§6{0} §aganhou a partida!",
+            "ranktitle": "Rank abates:",
+            "rankno": "- {0}° ...",
+            "rank1": "- {0}° {1}: {2}",
+            "rank2": "- {0}° {1}: {2}",
+            "rank3": "- {0}° {1}: {2}",
+            "refil": "§eBaús reabastecidos!",
+            "time": "Fim {0}",
+            "refilscore": "Refil {0}",
+            "stoptimer": "§cTemporizador parado por falta de jogadores.",
+            "sendspawn": "§eTeleportando para as cages...",
+            "start": {
+                "title": "Iniciando em:",
+                "subtitle": "§a{0} segundo(s)..."
+            },
+            "win": {
+                "title": "§l§aParabéns!§r",
+                "subtitle": "§7Você ganhou a partida."
+            },
+            "killed": {
+                "title": "§l§cEliminado§r",
+                "subtitle": "§7Que pena, quem sabe na próxima?"
+            },
+            "endgame": {
+                "title": "§cFim de Jogo",
+                "subtitle": "§7Mais sorte na proxima partida."
+            },
+            "resume": {
+                "kills": "§6+{0} §f- Abates",
+                "win": " §6+{0} §f- Vitória",
+                "header": "  §eResumo da partida: ",
+                "nogain": " §cNenhum ganho.",
+                "total": "§fTotal: §6{0}"
+            },
+            "death": {
+                "contact": "§l§6\u00bb§r§7 {0} §emorreu.",
+                "suffocation": "§l§6\u00bb§r§7 {0} §emorreu sufocado!",
+                "fall": "§l§6\u00bb§r§7 {0} §ecaiu de um lugar muito alto.",
+                "burn": "§l§6\u00bb§r§7 {0} §emorreu queimado.",
+                "drowning": "§l§6\u00bb§r§7 {0} §emorreu afogado.",
+                "explosion": "§l§6\u00bb§r§7 {0} §efoi explodido.",
+                "void": "§l§6\u00bb§r§7 {0} §ecaiu no void",
+                "suicide": "§l§6\u00bb§r§7 {0} se matou.",
+                "magic": "§l§6\u00bb§r§7{0} §emorreu por magia.",
+                "starvation": "§l§6\u00bb§r§7{0} §e",
+                "undefined": "§l§6\u00bb§r§7 {0} §emorreu.",
+                "byplayer": "§l§6\u00bb§r§7 {0} §efoi morto por §7 {1}§e."
+            },
+            "tip": {
+                "kill": "§6+{0}§d+{1}",
+                "win": "§6+{0}"
+            }
+        },
+        "confirm": {
+            "kit": "§eKit selecionado:§f {0}",
+            "hab": "§eHabilidade selecionada:§f {0}"
+        },
+        "recuse": {
+            "kit": "§cVocê recusou a seleção do kit:§f {0}",
+            "hab": "§cVocê recusou a seleção da habilidade:§f {0}"
+        },
+        "limittime": {
+            "kit": "§cA partida já iniciou! O tempo de pegar o kit já passou...",
+            "hab": "§cA partida já iniciou! O tempo de pegar a habilidade já passou..."
+        },
+        "checkkitfail": "§cErro: <100>.",
+        "checkhabfail": "§cErro: <101>.",
+        "stage": [
+            "§eAguardando...",
+            "§aIniciando...",
+            "§cEm jogo!",
+            "§6Preparando..."
+        ],
+        "npc": {
+            "nametag": "§6Entrar na sala{n}{0}",
+            "noplayer": "§cNenhum jogador",
+            "hasplayer": "§e{0} jogadores"
+        },
+        "top": {
+            "loading": "§eCarregando...",
+            "kills": {
+                "pos1": "§3{0}° §f{1}{n}Abates: §7{2}",
+                "pos2": "§6{0}° §f{1}{n}Abates: §7{2}",
+                "pos3": "§7{0}° §f{1}{n}Abates: §7{2}",
+                "noplayer": "§f{0}° §cNenhum"
+            },
+            "wins": {
+                "pos1": "§3{0}° §f{1}{n}Wins: §7{2}",
+                "pos2": "§6{0}° §f{1}{n}Wins: §7{2}",
+                "pos3": "§7{0}° §f{1}{n}Wins: §7{2}",
+                "noplayer": "§f{0}° §cNenhum"
+            }
+        },
+        "commands": {
+            "hub": {
+                "sending": "§6Você está sendo enviado para o Hub...",
+                "inarena": "§cEste comando não pode ser usado em uma arena."
+            }
+        },
+        "messages": {
+            "prefixspec": "§7[Espectador]§f",
+            "chatoff": "§eSeu chat está desabilitado! Habilite nas configurações.",
+            "height": "§cNão é possivel colocar blocos a partir dessa altura!"
+        },
+        "scoreboard": {
+            "lobby": {
+                "name": "§l§aSKY WARS§r",
+                "1": " ",
+                "2": " Kit: §a{1} ",
+                "3": " Habilidade: §a{2} ",
+                "4": " ",
+                "5": " Moedas: §6{3}",
+                "6": " Almas: §d{4}",
+                "7": " "
+            },
+            "stage0": {
+                "name": "§l§aSKY WARS§r",
+                "1": " ",
+                "2": " Estágio: {0}",
+                "3": " §fTempo:§a {1}s",
+                "4": " ",
+                "5": " §fJogadores:§a {2}/{3}",
+                "6": " "
+            },
+            "stage1": {
+                "name": "§l§aSKY WARS§r",
+                "1": " ",
+                "2": " Estágio: {0}",
+                "3": " §fTempo:§a {1}s",
+                "4": " ",
+                "5": " §fJogadores:§a {2}/{3}",
+                "6": " "
+            },
+            "stage2": {
+                "name": "§l§aSKY WARS§r",
+                "1": " ",
+                "2": " §fPróximo evento:",
+                "3": " §a{0}",
+                "4": " ",
+                "5": " §fRestantes:§a {1}",
+                "6": " §fAbates:§a {2}",
+                "7": " ",
+                "8": " {3}",
+                "9": " {4}",
+                "10": " {5}",
+                "11": " {6}",
+                "12": " "
+            }
+        }
+    }
+}
