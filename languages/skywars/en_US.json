@@ -1,34 +1,34 @@
 {
-    "name": "Portuguese",
-    "code": "pt_BR",
+    "name": "English",
+    "code": "en_US",
     "server": "skywars",
-    "version": "1.0.12",
+    "version": "1.0.0",
     "messages": {
         "item": {
             "name": {
-                "perfil": "§r§aSeu perfil",
-                "kit": "§r§eSelecione um kit",
-                "lobby": "§r§cVoltar ao lobby",
-                "locate": "§r§6Localize um jogador",
-                "hab": "§r§bSelecione uma habilidade",
-                "shop": "§r§6Loja",
-                "gameagain": "§r§aJogar novamente"
+                "perfil": "§r§aYour profile",
+                "kit": "§r§eSelect the kit",
+                "lobby": "§r§cBack to lobby",
+                "locate": "§r§6Locale a player",
+                "hab": "§r§bSelect the skill",
+                "shop": "§r§6Shop",
+                "gameagain": "§r§aPlay again"
             }
         },
         "kit": {
-            "nokit": "§cNenhum",
+            "nokit": "§cNone",
             "type": {
-                "free": "§aGrátis",
-                "level": "§eNível:§7 {0}",
-                "buy": "§8Adquira por §e{0} §8moeda(s) ",
-                "case": "§8Exclusivo da caixa {0}"
+                "free": "§aFree",
+                "level": "§eLevel:§7 {0}",
+                "buy": "§8Buy per §e{0} §8coin(s) ",
+                "case": "§8Exclusive from box {0}"
             },
             "basic": {
-                "name": "Basico",
+                "name": "Basic",
                 "desc": "Itens úteis? Talvez, o que se sabe é que podem quebrar um galho."
             },
             "rush": {
-                "name": "Rushador",
+                "name": "Rusher",
                 "desc": "Hey bro, lhe falta velocidade! Que tal abater inimigos de forma rápida e indolor?"
             },
             "ninja": {
@@ -36,11 +36,11 @@
                 "desc": "Não basta ter ótimos reflexos, com um pouco de futividade todos conseguem realizar seu objetivo."
             },
             "frog": {
-                "name": "Sapo",
+                "name": "Frog",
                 "desc": "Saltos, saltos e mais saltos! Tome bastante cuidado para não quebrar as pernas ao exagerar."
             },
             "witcher": {
-                "name": "Bruxo",
+                "name": "Witch",
                 "desc": "Séculos se passaram e ainad existe pessoas capazes de utilizar mágia pelas sombras, que tal se juntar a aliança?"
             },
             "troll": {
@@ -48,61 +48,61 @@
                 "desc": "Apenas os bobos da corte conseguiam fazer o rei dar gargalhadas, você se acha no mesmo nivel? Então prove!"
             },
             "paladin": {
-                "name": "Paladino",
+                "name": "Paladin",
                 "desc": "Um herói errante ressurgiu dos mortos, apenas aqueles capazes de controla-lo pode possui-lo e usar ao seu favor!"
             },
             "warrior": {
-                "name": "Guerreiro",
+                "name": "Knight",
                 "desc": "Destemido desde os tempos antigos, sempre encarando o perigo sem medo, junte-se a batalha e consiga a vitória se você for capaz!"
             },
             "archer": {
-                "name": "Arqueiro",
+                "name": "Archer",
                 "desc": "Ótima pontaria! É o que diria, não são muitos que tem a perspicácia para criar estratégias e abater o inimigo."
             }
         },
         "hab": {
-            "donthave": "§cVocê não possuí habilidades, adquira no Lobbie (SkyWars)!",
+            "donthave": "§cYou no have skills, get on Lobby (SkyWars)!",
             "type": {
-                "free": "Gratis",
-                "level": "§eNível:§7 {0}",
-                "buy": "§6Adquirir por §7{0} §6moeda(s)",
-                "case": "§5Exclusivo da caixa {0}"
+                "free": "Free",
+                "level": "§eLevel:§7 {0}",
+                "buy": "§6Buy per §7{0} §6coin(s)",
+                "case": "§5Exclusive from box {0}"
             },
-            "nohab": "§cNenhuma",
+            "nohab": "§cNone",
             "luckyblock": {
-                "name": "Bloco da Sorte",
-                "desc": "§7 * Quebre um bloco e tenha a chance de achar uma maçã dourada!"
+                "name": "Lucky Block",
+                "desc": "§7 * Break a block, and have a chance to find a golden apple!"
             },
             "resistant": {
-                "name": "Resistente",
-                "desc": "§7 * Quando você receber algum dano será reduzido 20%%!"
+                "name": "Resistant",
+                "desc": "§7 * Receive damage and reduce the damage on 20%%!"
             },
             "assassin": {
-                "name": "Assassino",
-                "desc": "§7 * Ao eliminar um jogador você receberá um efeito de Força I por 2 segundos!"
+                "name": "Assassin",
+                "desc": "§7 * On kill a player, you get Effect I from 2 seconds effect"
             },
             "masterend": {
-                "name": "Mestre do Fim",
-                "desc": "§7 * Ao usar uma Pérola do fim tenha 25%% de chance de reduzir o dano em 50%%"
+                "name": "Master from end",
+                "desc": "§7 * On usage a Ender Pearl, you have a 25%% of chance on reduce damage in 50%%"
             },
             "infire": {
-                "name": "Em chamas",
-                "desc": "§7 * Ao acertar uma flecha em algum jogador, tenha 5%% de chance de atear fogo em seu inimigo por 5 segundos!"
+                "name": "On fire",
+                "desc": "§7 * 5%% to put fire on a player per 5 seconds on shot of arrow."
             }
         },
         "box": {
             "1": {
-                "float": "§dAlma da Sorte§r{n}§l§eCLIQUE PARA ABRIR§r",
-                "name": "§dAlma da Sorte§r§f",
-                "desc": "§7* Na §dAlma da Sorte§7 você terá a chance de ganhar kits, habilidades e muito mais!"
+                "float": "§dSoul well§r{n}§l§eCLICK TO OPEN§r",
+                "name": "§dSoul well§r§f",
+                "desc": "§7* On §dSoul well§7, you get a chance to earn skills, kits and more!"
             },
             "float": {
-                "select": "§c{0}segundo(s) restantes para selecionar..."
+                "select": "§c{0} second(s) remaining to select..."
             },
             "reward": {
                 "coins": "§6[Coins] §f{0}",
                 "kit": "§a[Kit] §f{0}",
-                "hab": "§a[Habilidade] §f{0}"
+                "hab": "§a[Skill] §f{0}"
             },
             "message": {
                 "wonhab": "§a × §7Voce ganhou a habilidade §a({0})§7!",
