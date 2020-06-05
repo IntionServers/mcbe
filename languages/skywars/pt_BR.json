@@ -305,7 +305,7 @@
                 "magic": "§l§6\u00bb§r§7{0} §emorreu por magia.",
                 "starvation": "§l§6\u00bb§r§7{0} §e",
                 "undefined": "§l§6\u00bb§r§7 {0} §emorreu.",
-                "byplayer": "§l§6\u00bb§r§7 {0} §efoi morto por §7 {1}§e."
+                "byplayer": "§l§6\u00bb§r§7 {0} §efoi morto por§7 {1}§e."
             },
             "tip": {
                 "kill": "§6+{0}§d+{1}",
