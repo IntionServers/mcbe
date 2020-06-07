@@ -100,7 +100,7 @@
                 "select": "§c{0}segundo(s) restantes para selecionar..."
             },
             "reward": {
-                "coins": "§6[Coins] §f{0}",
+                "coins": "§6[Moedas] §f{0}",
                 "kit": "§a[Kit] §f{0}",
                 "hab": "§a[Habilidade] §f{0}"
             },
