@@ -346,9 +346,9 @@
                 "noplayer": "§f{0}° §cNenhum"
             },
             "wins": {
-                "pos1": "§3{0}° §f{1}{n}Wins: §7{2}",
-                "pos2": "§6{0}° §f{1}{n}Wins: §7{2}",
-                "pos3": "§7{0}° §f{1}{n}Wins: §7{2}",
+                "pos1": "§3{0}° §f{1}{n}Vitórias: §7{2}",
+                "pos2": "§6{0}° §f{1}{n}Vitórias: §7{2}",
+                "pos3": "§7{0}° §f{1}{n}Vitórias: §7{2}",
                 "noplayer": "§f{0}° §cNenhum"
             }
         },
@@ -361,7 +361,8 @@
         "messages": {
             "prefixspec": "§7[Espectador]§f",
             "chatoff": "§eSeu chat está desabilitado! Habilite nas configurações.",
-            "height": "§cNão é possivel colocar blocos a partir dessa altura!"
+            "height": "§cNão é possivel colocar blocos a partir dessa altura!",
+            "antiflood": "§cImpossibilitado de usar o chat por {0} segundos."
         },
         "scoreboard": {
             "lobby": {
