@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.0.12.2",
+    "version": "1.0.12.3",
     "messages": {
         "item": {
             "name": {
@@ -330,7 +330,7 @@
             "§eAguardando...",
             "§aIniciando...",
             "§cEm jogo!",
-            "§6Preparando..."
+            "§cTerminando..."
         ],
         "npc": {
             "nametag": "§6Entrar na sala{n}{0}",
@@ -407,6 +407,16 @@
                 "10": " {5}",
                 "11": " {6}",
                 "12": " "
+            },
+            "stage3": {
+                "name": "§l§aSKY WARS§r",
+                "1": " ",
+                "2": " §fPróximo evento:",
+                "3": " §a{0}",
+                "4": " ",
+                "5": " §fVencedor:",
+                "6": " §a{1}",
+                "7": " "
             }
         }
     }
