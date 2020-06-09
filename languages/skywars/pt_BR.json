@@ -107,7 +107,7 @@
             "message": {
                 "wonhab": "§a × §7Voce ganhou a habilidade §a({0})§7!",
                 "wonkit": "§a × §7Voce ganhou o kit §a({0})§7!",
-                "woncoins": "§a × §7Voce ganhou §6({0} coins)§7!",
+                "woncoins": "§a × §7Voce ganhou §6({0} moedas)§7!",
                 "hadkit": "§e × Como você já possuí o kit §a{0}§e, uma quantia de §d{1} almas§e foi adicionado em sua conta.",
                 "hadhab": "§e × Como você já possuí a habilidade §a{0}§e, uma quantia de §d{1} almas §efoi adicionado em sua conta.",
                 "end": {
@@ -115,11 +115,11 @@
                     "reward": "{n} §7- {0} {1}",
                     "select": "§aSelecionado§f"
                 },
-                "recuseopen": "§cVocê cancelou a  abertura da caixa.",
+                "recuseopen": "§cVocê cancelou a abertura da caixa.",
                 "confirmopen": "§aA caixa misteriosa está sendo aberta.."
             },
             "tip": {
-                "openning": "§cVocê já está abrindo alguma caixa.",
+                "openning": "§cVocê já está abrindo uma caixa.",
                 "needsouls": "§eSão necessárias §l{0}§r§e almas para abrir a caixa."
             }
         },
