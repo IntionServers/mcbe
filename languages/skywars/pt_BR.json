@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.0.12.3",
+    "version": "1.0.12.4",
     "messages": {
         "item": {
             "name": {
@@ -207,7 +207,7 @@
                 "title": "Configurações",
                 "label": "§eClique em enviar para salvar as alterações!",
                 "disable": "§cDesativado",
-                "able": "§aAtivado",
+                "enable": "§aAtivado",
                 "chat": {
                     "toggle": "Chat",
                     "label": "§7Desabilite o §echat §7para não receber mensagens de outros jogadores.",
@@ -218,10 +218,15 @@
                     "label": "§7A opção '§eProxima partida§7' faz você ir automaticamente para outra partida após morrer ou ganhar!",
                     "message": "§7A §eProxima partida§7 foi {0}."
                 },
-                "score": {
+                "scoreboard": {
                     "toggle": "Scoreboard",
                     "label": "§7A opção '§eScoreboard§7' permite que a mesma seja mostrada no lado direito de sua tela.",
                     "message": "§7A §eScoreboard§7 foi {0}."
+                },
+                "visible": {
+                    "toggle": "Players visiveis",
+                    "label": "§7A opção '§ePlayers visiveis§7' permite que você ative ou desative os players no lobby.",
+                    "message": "§7A §ePlayers visiveis§7 foi {0}."
                 },
                 "button": {
                     "back": "Voltar"
