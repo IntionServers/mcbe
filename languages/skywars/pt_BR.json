@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.0.12.4",
+    "version": "1.0.12.5",
     "messages": {
         "item": {
             "name": {
@@ -338,7 +338,10 @@
             "§cTerminando..."
         ],
         "npc": {
-            "nametag": "§6Entrar na sala{n}{0}",
+            "nametag": {
+                "solo": "§6Modo solo{n}{0}",
+                "duo": "§6Modo duo{n}{0}"
+            },
             "noplayer": "§cNenhum jogador",
             "hasplayer": "§e{0} jogadores"
         },
