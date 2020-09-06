@@ -61,14 +61,15 @@
     "games": {
       "standard": "Standard {n} Players in queue: {0}",
       "op": "OP {n} Players in queue: {0}",
-      "sumo": "Sumô {n} Players in queue: {0}"
+      "sumo": "Sumô {n} Players in queue: {0}",
+      "formated": "{0} {n} Players in queue: {1}"
     },
     
-    "games": {
+    /*"games": {
       "standard": "Standard",
       "op": "OP",
       "sumo": "Sumô"
-    },
+    },*/
 
     "ranks": {
       "0": "IronIII",
