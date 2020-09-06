@@ -61,7 +61,8 @@
     "games": {
       "standard": "Padrão {n} Jogadores na fila: {0}",
       "op": "OP {n} Jogadores na fila: {0}",
-      "sumo": "Sumô {n} Jogadores na fila: {0}"
+      "sumo": "Sumô {n} Jogadores na fila: {0}",
+      "formated": "{0} {n} Jogadores na fila: {1}"
     },
 
     "ranks": {
