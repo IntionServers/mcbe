@@ -121,7 +121,7 @@
             "tip": {
                 "inuse": "§cOutro jogador já está abrindo a caixa, espere e tente novamente.",
                 "opening": "§cVocê já está abrindo uma caixa.",
-                "needsouls": "§eSão necessárias §l{0}§r§e almas para abrir a caixa.",
+                "needsouls": "§eSão necessárias §l{0}§r§e almas para abrir a caixa."
             }
         },
         "ui": {
