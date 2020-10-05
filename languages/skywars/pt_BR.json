@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.0.12.5",
+    "version": "1.0.12.6",
     "messages": {
         "item": {
             "name": {
@@ -119,8 +119,9 @@
                 "confirmopen": "§aA caixa misteriosa está sendo aberta.."
             },
             "tip": {
-                "openning": "§cVocê já está abrindo uma caixa.",
-                "needsouls": "§eSão necessárias §l{0}§r§e almas para abrir a caixa."
+                "inuse": "§cOutro jogador já está abrindo a caixa, espere e tente novamente.",
+                "opening": "§cVocê já está abrindo uma caixa.",
+                "needsouls": "§eSão necessárias §l{0}§r§e almas para abrir a caixa.",
             }
         },
         "ui": {
@@ -240,7 +241,10 @@
                 "button": "§cRecusar"
             },
             "box": {
-                "content": "Confirmação da abertura da caixa: {0} {n}{1}{n}§fEssa caixa tem custo de §d{2} almas§f, você confirma sua ação?."
+                "soul": {
+                  "title": "Confirmação Alma da Sorte",
+                  "content": "Confirmação da abertura da caixa: {0} {n}{1}{n}§fEssa caixa tem custo de §d{2} almas§f, você confirma sua ação?."
+                }
             }
         },
         "buy": {
