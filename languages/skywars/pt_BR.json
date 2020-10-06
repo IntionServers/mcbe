@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "messages": {
         "item": {
             "name": {
@@ -91,7 +91,7 @@
             }
         },
         "box": {
-            "soul": {
+            "1": {
                 "nametag": "§dAlma da Sorte§r{n}§l§eCLIQUE PARA ABRIR§r",
                 "opening": "§eGerando seu prêmio...",
                 "name": "§dAlma da Sorte§r§f",
