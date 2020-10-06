@@ -2,7 +2,7 @@
     "name": "Portuguese",
     "code": "pt_BR",
     "server": "skywars",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "messages": {
         "item": {
             "name": {
@@ -93,6 +93,7 @@
         "box": {
             "soul": {
                 "nametag": "§dAlma da Sorte§r{n}§l§eCLIQUE PARA ABRIR§r",
+                "opening": "§eGerando seu prêmio...",
                 "name": "§dAlma da Sorte§r§f",
                 "desc": "§7* Na §dAlma da Sorte§7 você terá a chance de ganhar kits, habilidades e muito mais!"
             },
