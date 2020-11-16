@@ -7,7 +7,7 @@
       "commands": {
         "args": "§cUsage: /ctf <args>",
         "create": {
-          "args": "&cUsage: /ctf create <name>"
+          "args": "&cUsage: /ctf create <arena> <players_per_team>"
         }
       }
     }
