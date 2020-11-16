@@ -5,7 +5,10 @@
     "version": "1.0.0",
     "messages": {
       "commands": {
-        "args": "§cUsage: /ctf <args>"
+        "args": "§cUsage: /ctf <args>",
+        "create": {
+          "args": "&cUsage: /ctf create <name>"
+        }
       }
     }
 }
