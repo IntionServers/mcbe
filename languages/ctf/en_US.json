@@ -1,1 +1,11 @@
-[]
+{
+    "name": "English",
+    "code": "en_US",
+    "server": "ctf",
+    "version": "1.0.0",
+    "messages": {
+      "commands": {
+        "args": "§cUsage: /ctf <args>"
+      }
+    }
+}
