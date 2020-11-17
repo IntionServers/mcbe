@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "messages": {
       "commands": {
-        "args": "§cUsage: /ctf <args>",
+        "usage": "§cUsage: /ctf <args>",
         "create": {
           "args": "&cUsage: /ctf create <arena> <players_per_team>",
           "warnings": {
