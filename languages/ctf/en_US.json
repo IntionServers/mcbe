@@ -11,6 +11,10 @@
           "warnings": {
             "error_1": "§cOPS! Have other player setting an arena with the same name in this moment",
             "error_2": "§cOPS! Have other arena with the same name"
+          },
+          "positions": {
+            "setposition": "§aArena being created, now set the positions from {team} team §ausing sticker!",
+            "one_defined": "§aPosition {position} from {team} defined, there are {remaining} remaining positions"
           }
         }
       }
