@@ -7,7 +7,7 @@
       "commands": {
         "usage": "§cUsage: /ctf <args>",
         "create": {
-          "args": "&cUsage: /ctf create <arena> <players_per_team>",
+          "args": "§cUsage: /ctf create <arena> <players_per_team>",
           "warnings": {
             "error_1": "§cOPS! There's another player setting an arena with the same name in this moment",
             "error_2": "§cOPS! There's another arena with the same name",
