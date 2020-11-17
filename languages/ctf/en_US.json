@@ -15,7 +15,7 @@
             "error_4": "§cOPS! The limit from the Players count need to be less than 8."
           },
           "positions": {
-            "setposition": "§aArena being created, now set the positions from {team} team §ausing sticker!"
+            "setposition": "§aSet the position of {team} team §ausing sticker!"
           },
           "created": "§aArena CTF {arena} created!"
         }
