@@ -16,7 +16,8 @@
           },
           "positions": {
             "setposition": "§aArena being created, now set the positions from {team} team §ausing sticker!"
-          }
+          },
+          "created": "§aArena CTF {arena} created!"
         }
       }
     }
