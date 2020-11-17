@@ -12,7 +12,7 @@
             "error_1": "§cOPS! There's another player setting an arena with the same name in this moment",
             "error_2": "§cOPS! There's another arena with the same name",
             "error_3": "§cOPS! Players count from the team need to be INT.",
-            "error_3": "§cOPS! The limit from the Players count need to be less than 8."
+            "error_4": "§cOPS! The limit from the Players count need to be less than 8."
           },
           "positions": {
             "setposition": "§aArena being created, now set the positions from {team} team §ausing sticker!"
