@@ -117,6 +117,11 @@
                             "§7Servidor em desenvolvimento, em breve disponivel.",
                             "§7Junte-se a outros §e{count} §7jogadores.",
                             "§7Há §e{friends}§7 amigos jogando neste momento."
+                        ],
+                        "lobby": [
+                          "§7Um servidor para que você possa escolher alguns de nossos minigames.",
+                          "§7Também temos um modo de combate aqui.",
+                          "§7Há §e{friends}§7 amigos aqui neste momento."
                         ]
                     }
                 },
@@ -260,7 +265,9 @@
         	"enable": "Habilitar",
             "disable": "Desabilitar",
             "hide_players": "Esconder jogadores",
-            "show_players": "Mostrar jogadores"
+            "show_players": "Mostrar jogadores",
+            "only_title": "Somente titulos",
+            "title_and_tag": "Somente tags e titulos"
         },
         "scoreboard": {
         	"title": "§l§3INTION§r§7 ({server})",
